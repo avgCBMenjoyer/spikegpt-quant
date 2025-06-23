@@ -5,6 +5,10 @@ rough_code/
 *.pth
 
 
+# Databases
+enwiki8/
+movie_review/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
