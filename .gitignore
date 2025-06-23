@@ -1,3 +1,10 @@
+# Rough Draft Code
+rough_code/
+
+# Pytorch Checkpoints
+*.pth
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
