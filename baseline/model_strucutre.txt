@@ -1,0 +1,477 @@
+GPT(
+  (emb): Embedding(50277, 768)
+  (blocks): Sequential(
+    (0): Block(
+      (ln1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (ln2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (lif1): MultiStepLIFNode(
+        v_threshold=1.0, v_reset=0.0, detach_reset=False, tau=2.0, backend=cupy
+        (surrogate_function): ATan(alpha=2.0, spiking=True)
+      )
+      (lif2): MultiStepLIFNode(
+        v_threshold=1.0, v_reset=0.0, detach_reset=False, tau=2.0, backend=cupy
+        (surrogate_function): ATan(alpha=2.0, spiking=True)
+      )
+      (dropout): Dropout(p=0.03, inplace=False)
+      (ln0): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (att): RWKV_TimeMix(
+        (time_shift): RecursiveScriptModule(original_name=ZeroPad2d)
+        (key): RecursiveScriptModule(original_name=Linear)
+        (value): RecursiveScriptModule(original_name=Linear)
+        (receptance): RecursiveScriptModule(original_name=Linear)
+        (output): RecursiveScriptModule(original_name=Linear)
+      )
+      (ffn): RWKV_ChannelMix(
+        (time_shift): RecursiveScriptModule(original_name=ZeroPad2d)
+        (key): RecursiveScriptModule(original_name=Linear)
+        (receptance): RecursiveScriptModule(original_name=Linear)
+        (value): RecursiveScriptModule(original_name=Linear)
+      )
+    )
+    (1): Block(
+      (ln1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (ln2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (lif1): MultiStepLIFNode(
+        v_threshold=1.0, v_reset=0.0, detach_reset=False, tau=2.0, backend=cupy
+        (surrogate_function): ATan(alpha=2.0, spiking=True)
+      )
+      (lif2): MultiStepLIFNode(
+        v_threshold=1.0, v_reset=0.0, detach_reset=False, tau=2.0, backend=cupy
+        (surrogate_function): ATan(alpha=2.0, spiking=True)
+      )
+      (dropout): Dropout(p=0.03, inplace=False)
+      (att): RWKV_TimeMix(
+        (time_shift): RecursiveScriptModule(original_name=ZeroPad2d)
+        (key): RecursiveScriptModule(original_name=Linear)
+        (value): RecursiveScriptModule(original_name=Linear)
+        (receptance): RecursiveScriptModule(original_name=Linear)
+        (output): RecursiveScriptModule(original_name=Linear)
+      )
+      (ffn): RWKV_ChannelMix(
+        (time_shift): RecursiveScriptModule(original_name=ZeroPad2d)
+        (key): RecursiveScriptModule(original_name=Linear)
+        (receptance): RecursiveScriptModule(original_name=Linear)
+        (value): RecursiveScriptModule(original_name=Linear)
+      )
+    )
+    (2): Block(
+      (ln1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (ln2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (lif1): MultiStepLIFNode(
+        v_threshold=1.0, v_reset=0.0, detach_reset=False, tau=2.0, backend=cupy
+        (surrogate_function): ATan(alpha=2.0, spiking=True)
+      )
+      (lif2): MultiStepLIFNode(
+        v_threshold=1.0, v_reset=0.0, detach_reset=False, tau=2.0, backend=cupy
+        (surrogate_function): ATan(alpha=2.0, spiking=True)
+      )
+      (dropout): Dropout(p=0.03, inplace=False)
+      (att): RWKV_TimeMix(
+        (time_shift): RecursiveScriptModule(original_name=ZeroPad2d)
+        (key): RecursiveScriptModule(original_name=Linear)
+        (value): RecursiveScriptModule(original_name=Linear)
+        (receptance): RecursiveScriptModule(original_name=Linear)
+        (output): RecursiveScriptModule(original_name=Linear)
+      )
+      (ffn): RWKV_ChannelMix(
+        (time_shift): RecursiveScriptModule(original_name=ZeroPad2d)
+        (key): RecursiveScriptModule(original_name=Linear)
+        (receptance): RecursiveScriptModule(original_name=Linear)
+        (value): RecursiveScriptModule(original_name=Linear)
+      )
+    )
+    (3): Block(
+      (ln1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (ln2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (lif1): MultiStepLIFNode(
+        v_threshold=1.0, v_reset=0.0, detach_reset=False, tau=2.0, backend=cupy
+        (surrogate_function): ATan(alpha=2.0, spiking=True)
+      )
+      (lif2): MultiStepLIFNode(
+        v_threshold=1.0, v_reset=0.0, detach_reset=False, tau=2.0, backend=cupy
+        (surrogate_function): ATan(alpha=2.0, spiking=True)
+      )
+      (dropout): Dropout(p=0.03, inplace=False)
+      (att): RWKV_TimeMix(
+        (time_shift): RecursiveScriptModule(original_name=ZeroPad2d)
+        (key): RecursiveScriptModule(original_name=Linear)
+        (value): RecursiveScriptModule(original_name=Linear)
+        (receptance): RecursiveScriptModule(original_name=Linear)
+        (output): RecursiveScriptModule(original_name=Linear)
+      )
+      (ffn): RWKV_ChannelMix(
+        (time_shift): RecursiveScriptModule(original_name=ZeroPad2d)
+        (key): RecursiveScriptModule(original_name=Linear)
+        (receptance): RecursiveScriptModule(original_name=Linear)
+        (value): RecursiveScriptModule(original_name=Linear)
+      )
+    )
+    (4): Block(
+      (ln1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (ln2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (lif1): MultiStepLIFNode(
+        v_threshold=1.0, v_reset=0.0, detach_reset=False, tau=2.0, backend=cupy
+        (surrogate_function): ATan(alpha=2.0, spiking=True)
+      )
+      (lif2): MultiStepLIFNode(
+        v_threshold=1.0, v_reset=0.0, detach_reset=False, tau=2.0, backend=cupy
+        (surrogate_function): ATan(alpha=2.0, spiking=True)
+      )
+      (dropout): Dropout(p=0.03, inplace=False)
+      (att): RWKV_TimeMix(
+        (time_shift): RecursiveScriptModule(original_name=ZeroPad2d)
+        (key): RecursiveScriptModule(original_name=Linear)
+        (value): RecursiveScriptModule(original_name=Linear)
+        (receptance): RecursiveScriptModule(original_name=Linear)
+        (output): RecursiveScriptModule(original_name=Linear)
+      )
+      (ffn): RWKV_ChannelMix(
+        (time_shift): RecursiveScriptModule(original_name=ZeroPad2d)
+        (key): RecursiveScriptModule(original_name=Linear)
+        (receptance): RecursiveScriptModule(original_name=Linear)
+        (value): RecursiveScriptModule(original_name=Linear)
+      )
+    )
+    (5): Block(
+      (ln1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (ln2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (lif1): MultiStepLIFNode(
+        v_threshold=1.0, v_reset=0.0, detach_reset=False, tau=2.0, backend=cupy
+        (surrogate_function): ATan(alpha=2.0, spiking=True)
+      )
+      (lif2): MultiStepLIFNode(
+        v_threshold=1.0, v_reset=0.0, detach_reset=False, tau=2.0, backend=cupy
+        (surrogate_function): ATan(alpha=2.0, spiking=True)
+      )
+      (dropout): Dropout(p=0.03, inplace=False)
+      (att): RWKV_TimeMix(
+        (time_shift): RecursiveScriptModule(original_name=ZeroPad2d)
+        (key): RecursiveScriptModule(original_name=Linear)
+        (value): RecursiveScriptModule(original_name=Linear)
+        (receptance): RecursiveScriptModule(original_name=Linear)
+        (output): RecursiveScriptModule(original_name=Linear)
+      )
+      (ffn): RWKV_ChannelMix(
+        (time_shift): RecursiveScriptModule(original_name=ZeroPad2d)
+        (key): RecursiveScriptModule(original_name=Linear)
+        (receptance): RecursiveScriptModule(original_name=Linear)
+        (value): RecursiveScriptModule(original_name=Linear)
+      )
+    )
+    (6): Block(
+      (ln1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (ln2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (lif1): MultiStepLIFNode(
+        v_threshold=1.0, v_reset=0.0, detach_reset=False, tau=2.0, backend=cupy
+        (surrogate_function): ATan(alpha=2.0, spiking=True)
+      )
+      (lif2): MultiStepLIFNode(
+        v_threshold=1.0, v_reset=0.0, detach_reset=False, tau=2.0, backend=cupy
+        (surrogate_function): ATan(alpha=2.0, spiking=True)
+      )
+      (dropout): Dropout(p=0.03, inplace=False)
+      (att): RWKV_TimeMix(
+        (time_shift): RecursiveScriptModule(original_name=ZeroPad2d)
+        (key): RecursiveScriptModule(original_name=Linear)
+        (value): RecursiveScriptModule(original_name=Linear)
+        (receptance): RecursiveScriptModule(original_name=Linear)
+        (output): RecursiveScriptModule(original_name=Linear)
+      )
+      (ffn): RWKV_ChannelMix(
+        (time_shift): RecursiveScriptModule(original_name=ZeroPad2d)
+        (key): RecursiveScriptModule(original_name=Linear)
+        (receptance): RecursiveScriptModule(original_name=Linear)
+        (value): RecursiveScriptModule(original_name=Linear)
+      )
+    )
+    (7): Block(
+      (ln1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (ln2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (lif1): MultiStepLIFNode(
+        v_threshold=1.0, v_reset=0.0, detach_reset=False, tau=2.0, backend=cupy
+        (surrogate_function): ATan(alpha=2.0, spiking=True)
+      )
+      (lif2): MultiStepLIFNode(
+        v_threshold=1.0, v_reset=0.0, detach_reset=False, tau=2.0, backend=cupy
+        (surrogate_function): ATan(alpha=2.0, spiking=True)
+      )
+      (dropout): Dropout(p=0.03, inplace=False)
+      (att): RWKV_TimeMix(
+        (time_shift): RecursiveScriptModule(original_name=ZeroPad2d)
+        (key): RecursiveScriptModule(original_name=Linear)
+        (value): RecursiveScriptModule(original_name=Linear)
+        (receptance): RecursiveScriptModule(original_name=Linear)
+        (output): RecursiveScriptModule(original_name=Linear)
+      )
+      (ffn): RWKV_ChannelMix(
+        (time_shift): RecursiveScriptModule(original_name=ZeroPad2d)
+        (key): RecursiveScriptModule(original_name=Linear)
+        (receptance): RecursiveScriptModule(original_name=Linear)
+        (value): RecursiveScriptModule(original_name=Linear)
+      )
+    )
+    (8): Block(
+      (ln1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (ln2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (lif1): MultiStepLIFNode(
+        v_threshold=1.0, v_reset=0.0, detach_reset=False, tau=2.0, backend=cupy
+        (surrogate_function): ATan(alpha=2.0, spiking=True)
+      )
+      (lif2): MultiStepLIFNode(
+        v_threshold=1.0, v_reset=0.0, detach_reset=False, tau=2.0, backend=cupy
+        (surrogate_function): ATan(alpha=2.0, spiking=True)
+      )
+      (dropout): Dropout(p=0.03, inplace=False)
+      (att): RWKV_TimeMix(
+        (time_shift): RecursiveScriptModule(original_name=ZeroPad2d)
+        (key): RecursiveScriptModule(original_name=Linear)
+        (value): RecursiveScriptModule(original_name=Linear)
+        (receptance): RecursiveScriptModule(original_name=Linear)
+        (output): RecursiveScriptModule(original_name=Linear)
+      )
+      (ffn): RWKV_ChannelMix(
+        (time_shift): RecursiveScriptModule(original_name=ZeroPad2d)
+        (key): RecursiveScriptModule(original_name=Linear)
+        (receptance): RecursiveScriptModule(original_name=Linear)
+        (value): RecursiveScriptModule(original_name=Linear)
+      )
+    )
+    (9): Block(
+      (ln1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (ln2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (lif1): MultiStepLIFNode(
+        v_threshold=1.0, v_reset=0.0, detach_reset=False, tau=2.0, backend=cupy
+        (surrogate_function): ATan(alpha=2.0, spiking=True)
+      )
+      (lif2): MultiStepLIFNode(
+        v_threshold=1.0, v_reset=0.0, detach_reset=False, tau=2.0, backend=cupy
+        (surrogate_function): ATan(alpha=2.0, spiking=True)
+      )
+      (dropout): Dropout(p=0.03, inplace=False)
+      (att): RWKV_TimeMix(
+        (time_shift): RecursiveScriptModule(original_name=ZeroPad2d)
+        (key): RecursiveScriptModule(original_name=Linear)
+        (value): RecursiveScriptModule(original_name=Linear)
+        (receptance): RecursiveScriptModule(original_name=Linear)
+        (output): RecursiveScriptModule(original_name=Linear)
+      )
+      (ffn): RWKV_ChannelMix(
+        (time_shift): RecursiveScriptModule(original_name=ZeroPad2d)
+        (key): RecursiveScriptModule(original_name=Linear)
+        (receptance): RecursiveScriptModule(original_name=Linear)
+        (value): RecursiveScriptModule(original_name=Linear)
+      )
+    )
+    (10): Block(
+      (ln1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (ln2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (lif1): MultiStepLIFNode(
+        v_threshold=1.0, v_reset=0.0, detach_reset=False, tau=2.0, backend=cupy
+        (surrogate_function): ATan(alpha=2.0, spiking=True)
+      )
+      (lif2): MultiStepLIFNode(
+        v_threshold=1.0, v_reset=0.0, detach_reset=False, tau=2.0, backend=cupy
+        (surrogate_function): ATan(alpha=2.0, spiking=True)
+      )
+      (dropout): Dropout(p=0.03, inplace=False)
+      (att): RWKV_TimeMix(
+        (time_shift): RecursiveScriptModule(original_name=ZeroPad2d)
+        (key): RecursiveScriptModule(original_name=Linear)
+        (value): RecursiveScriptModule(original_name=Linear)
+        (receptance): RecursiveScriptModule(original_name=Linear)
+        (output): RecursiveScriptModule(original_name=Linear)
+      )
+      (ffn): RWKV_ChannelMix(
+        (time_shift): RecursiveScriptModule(original_name=ZeroPad2d)
+        (key): RecursiveScriptModule(original_name=Linear)
+        (receptance): RecursiveScriptModule(original_name=Linear)
+        (value): RecursiveScriptModule(original_name=Linear)
+      )
+    )
+    (11): Block(
+      (ln1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (ln2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (lif1): MultiStepLIFNode(
+        v_threshold=1.0, v_reset=0.0, detach_reset=False, tau=2.0, backend=cupy
+        (surrogate_function): ATan(alpha=2.0, spiking=True)
+      )
+      (lif2): MultiStepLIFNode(
+        v_threshold=1.0, v_reset=0.0, detach_reset=False, tau=2.0, backend=cupy
+        (surrogate_function): ATan(alpha=2.0, spiking=True)
+      )
+      (dropout): Dropout(p=0.03, inplace=False)
+      (att): RWKV_TimeMix(
+        (time_shift): RecursiveScriptModule(original_name=ZeroPad2d)
+        (key): RecursiveScriptModule(original_name=Linear)
+        (value): RecursiveScriptModule(original_name=Linear)
+        (receptance): RecursiveScriptModule(original_name=Linear)
+        (output): RecursiveScriptModule(original_name=Linear)
+      )
+      (ffn): RWKV_ChannelMix(
+        (time_shift): RecursiveScriptModule(original_name=ZeroPad2d)
+        (key): RecursiveScriptModule(original_name=Linear)
+        (receptance): RecursiveScriptModule(original_name=Linear)
+        (value): RecursiveScriptModule(original_name=Linear)
+      )
+    )
+    (12): Block(
+      (ln1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (ln2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (lif1): MultiStepLIFNode(
+        v_threshold=1.0, v_reset=0.0, detach_reset=False, tau=2.0, backend=cupy
+        (surrogate_function): ATan(alpha=2.0, spiking=True)
+      )
+      (lif2): MultiStepLIFNode(
+        v_threshold=1.0, v_reset=0.0, detach_reset=False, tau=2.0, backend=cupy
+        (surrogate_function): ATan(alpha=2.0, spiking=True)
+      )
+      (dropout): Dropout(p=0.03, inplace=False)
+      (att): RWKV_TimeMix(
+        (time_shift): RecursiveScriptModule(original_name=ZeroPad2d)
+        (key): RecursiveScriptModule(original_name=Linear)
+        (value): RecursiveScriptModule(original_name=Linear)
+        (receptance): RecursiveScriptModule(original_name=Linear)
+        (output): RecursiveScriptModule(original_name=Linear)
+      )
+      (ffn): RWKV_ChannelMix(
+        (time_shift): RecursiveScriptModule(original_name=ZeroPad2d)
+        (key): RecursiveScriptModule(original_name=Linear)
+        (receptance): RecursiveScriptModule(original_name=Linear)
+        (value): RecursiveScriptModule(original_name=Linear)
+      )
+    )
+    (13): Block(
+      (ln1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (ln2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (lif1): MultiStepLIFNode(
+        v_threshold=1.0, v_reset=0.0, detach_reset=False, tau=2.0, backend=cupy
+        (surrogate_function): ATan(alpha=2.0, spiking=True)
+      )
+      (lif2): MultiStepLIFNode(
+        v_threshold=1.0, v_reset=0.0, detach_reset=False, tau=2.0, backend=cupy
+        (surrogate_function): ATan(alpha=2.0, spiking=True)
+      )
+      (dropout): Dropout(p=0.03, inplace=False)
+      (att): RWKV_TimeMix(
+        (time_shift): RecursiveScriptModule(original_name=ZeroPad2d)
+        (key): RecursiveScriptModule(original_name=Linear)
+        (value): RecursiveScriptModule(original_name=Linear)
+        (receptance): RecursiveScriptModule(original_name=Linear)
+        (output): RecursiveScriptModule(original_name=Linear)
+      )
+      (ffn): RWKV_ChannelMix(
+        (time_shift): RecursiveScriptModule(original_name=ZeroPad2d)
+        (key): RecursiveScriptModule(original_name=Linear)
+        (receptance): RecursiveScriptModule(original_name=Linear)
+        (value): RecursiveScriptModule(original_name=Linear)
+      )
+    )
+    (14): Block(
+      (ln1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (ln2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (lif1): MultiStepLIFNode(
+        v_threshold=1.0, v_reset=0.0, detach_reset=False, tau=2.0, backend=cupy
+        (surrogate_function): ATan(alpha=2.0, spiking=True)
+      )
+      (lif2): MultiStepLIFNode(
+        v_threshold=1.0, v_reset=0.0, detach_reset=False, tau=2.0, backend=cupy
+        (surrogate_function): ATan(alpha=2.0, spiking=True)
+      )
+      (dropout): Dropout(p=0.03, inplace=False)
+      (att): RWKV_TimeMix(
+        (time_shift): RecursiveScriptModule(original_name=ZeroPad2d)
+        (key): RecursiveScriptModule(original_name=Linear)
+        (value): RecursiveScriptModule(original_name=Linear)
+        (receptance): RecursiveScriptModule(original_name=Linear)
+        (output): RecursiveScriptModule(original_name=Linear)
+      )
+      (ffn): RWKV_ChannelMix(
+        (time_shift): RecursiveScriptModule(original_name=ZeroPad2d)
+        (key): RecursiveScriptModule(original_name=Linear)
+        (receptance): RecursiveScriptModule(original_name=Linear)
+        (value): RecursiveScriptModule(original_name=Linear)
+      )
+    )
+    (15): Block(
+      (ln1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (ln2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (lif1): MultiStepLIFNode(
+        v_threshold=1.0, v_reset=0.0, detach_reset=False, tau=2.0, backend=cupy
+        (surrogate_function): ATan(alpha=2.0, spiking=True)
+      )
+      (lif2): MultiStepLIFNode(
+        v_threshold=1.0, v_reset=0.0, detach_reset=False, tau=2.0, backend=cupy
+        (surrogate_function): ATan(alpha=2.0, spiking=True)
+      )
+      (dropout): Dropout(p=0.03, inplace=False)
+      (att): RWKV_TimeMix(
+        (time_shift): RecursiveScriptModule(original_name=ZeroPad2d)
+        (key): RecursiveScriptModule(original_name=Linear)
+        (value): RecursiveScriptModule(original_name=Linear)
+        (receptance): RecursiveScriptModule(original_name=Linear)
+        (output): RecursiveScriptModule(original_name=Linear)
+      )
+      (ffn): RWKV_ChannelMix(
+        (time_shift): RecursiveScriptModule(original_name=ZeroPad2d)
+        (key): RecursiveScriptModule(original_name=Linear)
+        (receptance): RecursiveScriptModule(original_name=Linear)
+        (value): RecursiveScriptModule(original_name=Linear)
+      )
+    )
+    (16): Block(
+      (ln1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (ln2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (lif1): MultiStepLIFNode(
+        v_threshold=1.0, v_reset=0.0, detach_reset=False, tau=2.0, backend=cupy
+        (surrogate_function): ATan(alpha=2.0, spiking=True)
+      )
+      (lif2): MultiStepLIFNode(
+        v_threshold=1.0, v_reset=0.0, detach_reset=False, tau=2.0, backend=cupy
+        (surrogate_function): ATan(alpha=2.0, spiking=True)
+      )
+      (dropout): Dropout(p=0.03, inplace=False)
+      (att): RWKV_TimeMix(
+        (time_shift): RecursiveScriptModule(original_name=ZeroPad2d)
+        (key): RecursiveScriptModule(original_name=Linear)
+        (value): RecursiveScriptModule(original_name=Linear)
+        (receptance): RecursiveScriptModule(original_name=Linear)
+        (output): RecursiveScriptModule(original_name=Linear)
+      )
+      (ffn): RWKV_ChannelMix(
+        (time_shift): RecursiveScriptModule(original_name=ZeroPad2d)
+        (key): RecursiveScriptModule(original_name=Linear)
+        (receptance): RecursiveScriptModule(original_name=Linear)
+        (value): RecursiveScriptModule(original_name=Linear)
+      )
+    )
+    (17): Block(
+      (ln1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (ln2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (lif1): MultiStepLIFNode(
+        v_threshold=1.0, v_reset=0.0, detach_reset=False, tau=2.0, backend=cupy
+        (surrogate_function): ATan(alpha=2.0, spiking=True)
+      )
+      (lif2): MultiStepLIFNode(
+        v_threshold=1.0, v_reset=0.0, detach_reset=False, tau=2.0, backend=cupy
+        (surrogate_function): ATan(alpha=2.0, spiking=True)
+      )
+      (dropout): Dropout(p=0.03, inplace=False)
+      (att): RWKV_TimeMix(
+        (time_shift): RecursiveScriptModule(original_name=ZeroPad2d)
+        (key): RecursiveScriptModule(original_name=Linear)
+        (value): RecursiveScriptModule(original_name=Linear)
+        (receptance): RecursiveScriptModule(original_name=Linear)
+        (output): RecursiveScriptModule(original_name=Linear)
+      )
+      (ffn): RWKV_ChannelMix(
+        (time_shift): RecursiveScriptModule(original_name=ZeroPad2d)
+        (key): RecursiveScriptModule(original_name=Linear)
+        (receptance): RecursiveScriptModule(original_name=Linear)
+        (value): RecursiveScriptModule(original_name=Linear)
+      )
+    )
+  )
+  (atan): ATan(alpha=2.0, spiking=True)
+  (ln_out): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+  (head): Linear(in_features=768, out_features=50277, bias=False)
+)

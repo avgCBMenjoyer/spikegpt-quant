@@ -1,0 +1,331 @@
+param name	 param shape	 param type	 num of elements	 param size (bytes)
+emb.weight	torch.Size([50277, 768])	torch.float32	38612736	154450944
+blocks.0.ln1.weight	torch.Size([768])	torch.float32	768	3072
+blocks.0.ln1.bias	torch.Size([768])	torch.float32	768	3072
+blocks.0.ln2.weight	torch.Size([768])	torch.float32	768	3072
+blocks.0.ln2.bias	torch.Size([768])	torch.float32	768	3072
+blocks.0.ln0.weight	torch.Size([768])	torch.float32	768	3072
+blocks.0.ln0.bias	torch.Size([768])	torch.float32	768	3072
+blocks.0.att.time_decay	torch.Size([768])	torch.float32	768	3072
+blocks.0.att.time_first	torch.Size([768])	torch.float32	768	3072
+blocks.0.att.time_mix_k	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.0.att.time_mix_v	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.0.att.time_mix_r	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.0.att.key.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.0.att.value.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.0.att.receptance.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.0.att.output.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.0.ffn.time_mix_k	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.0.ffn.time_mix_r	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.0.ffn.key.weight	torch.Size([3072, 768])	torch.float32	2359296	9437184
+blocks.0.ffn.receptance.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.0.ffn.value.weight	torch.Size([768, 3072])	torch.float32	2359296	9437184
+blocks.1.ln1.weight	torch.Size([768])	torch.float32	768	3072
+blocks.1.ln1.bias	torch.Size([768])	torch.float32	768	3072
+blocks.1.ln2.weight	torch.Size([768])	torch.float32	768	3072
+blocks.1.ln2.bias	torch.Size([768])	torch.float32	768	3072
+blocks.1.att.time_decay	torch.Size([768])	torch.float32	768	3072
+blocks.1.att.time_first	torch.Size([768])	torch.float32	768	3072
+blocks.1.att.time_mix_k	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.1.att.time_mix_v	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.1.att.time_mix_r	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.1.att.key.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.1.att.value.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.1.att.receptance.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.1.att.output.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.1.ffn.time_mix_k	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.1.ffn.time_mix_r	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.1.ffn.key.weight	torch.Size([3072, 768])	torch.float32	2359296	9437184
+blocks.1.ffn.receptance.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.1.ffn.value.weight	torch.Size([768, 3072])	torch.float32	2359296	9437184
+blocks.2.ln1.weight	torch.Size([768])	torch.float32	768	3072
+blocks.2.ln1.bias	torch.Size([768])	torch.float32	768	3072
+blocks.2.ln2.weight	torch.Size([768])	torch.float32	768	3072
+blocks.2.ln2.bias	torch.Size([768])	torch.float32	768	3072
+blocks.2.att.time_decay	torch.Size([768])	torch.float32	768	3072
+blocks.2.att.time_first	torch.Size([768])	torch.float32	768	3072
+blocks.2.att.time_mix_k	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.2.att.time_mix_v	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.2.att.time_mix_r	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.2.att.key.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.2.att.value.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.2.att.receptance.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.2.att.output.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.2.ffn.time_mix_k	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.2.ffn.time_mix_r	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.2.ffn.key.weight	torch.Size([3072, 768])	torch.float32	2359296	9437184
+blocks.2.ffn.receptance.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.2.ffn.value.weight	torch.Size([768, 3072])	torch.float32	2359296	9437184
+blocks.3.ln1.weight	torch.Size([768])	torch.float32	768	3072
+blocks.3.ln1.bias	torch.Size([768])	torch.float32	768	3072
+blocks.3.ln2.weight	torch.Size([768])	torch.float32	768	3072
+blocks.3.ln2.bias	torch.Size([768])	torch.float32	768	3072
+blocks.3.att.time_decay	torch.Size([768])	torch.float32	768	3072
+blocks.3.att.time_first	torch.Size([768])	torch.float32	768	3072
+blocks.3.att.time_mix_k	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.3.att.time_mix_v	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.3.att.time_mix_r	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.3.att.key.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.3.att.value.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.3.att.receptance.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.3.att.output.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.3.ffn.time_mix_k	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.3.ffn.time_mix_r	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.3.ffn.key.weight	torch.Size([3072, 768])	torch.float32	2359296	9437184
+blocks.3.ffn.receptance.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.3.ffn.value.weight	torch.Size([768, 3072])	torch.float32	2359296	9437184
+blocks.4.ln1.weight	torch.Size([768])	torch.float32	768	3072
+blocks.4.ln1.bias	torch.Size([768])	torch.float32	768	3072
+blocks.4.ln2.weight	torch.Size([768])	torch.float32	768	3072
+blocks.4.ln2.bias	torch.Size([768])	torch.float32	768	3072
+blocks.4.att.time_decay	torch.Size([768])	torch.float32	768	3072
+blocks.4.att.time_first	torch.Size([768])	torch.float32	768	3072
+blocks.4.att.time_mix_k	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.4.att.time_mix_v	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.4.att.time_mix_r	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.4.att.key.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.4.att.value.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.4.att.receptance.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.4.att.output.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.4.ffn.time_mix_k	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.4.ffn.time_mix_r	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.4.ffn.key.weight	torch.Size([3072, 768])	torch.float32	2359296	9437184
+blocks.4.ffn.receptance.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.4.ffn.value.weight	torch.Size([768, 3072])	torch.float32	2359296	9437184
+blocks.5.ln1.weight	torch.Size([768])	torch.float32	768	3072
+blocks.5.ln1.bias	torch.Size([768])	torch.float32	768	3072
+blocks.5.ln2.weight	torch.Size([768])	torch.float32	768	3072
+blocks.5.ln2.bias	torch.Size([768])	torch.float32	768	3072
+blocks.5.att.time_decay	torch.Size([768])	torch.float32	768	3072
+blocks.5.att.time_first	torch.Size([768])	torch.float32	768	3072
+blocks.5.att.time_mix_k	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.5.att.time_mix_v	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.5.att.time_mix_r	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.5.att.key.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.5.att.value.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.5.att.receptance.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.5.att.output.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.5.ffn.time_mix_k	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.5.ffn.time_mix_r	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.5.ffn.key.weight	torch.Size([3072, 768])	torch.float32	2359296	9437184
+blocks.5.ffn.receptance.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.5.ffn.value.weight	torch.Size([768, 3072])	torch.float32	2359296	9437184
+blocks.6.ln1.weight	torch.Size([768])	torch.float32	768	3072
+blocks.6.ln1.bias	torch.Size([768])	torch.float32	768	3072
+blocks.6.ln2.weight	torch.Size([768])	torch.float32	768	3072
+blocks.6.ln2.bias	torch.Size([768])	torch.float32	768	3072
+blocks.6.att.time_decay	torch.Size([768])	torch.float32	768	3072
+blocks.6.att.time_first	torch.Size([768])	torch.float32	768	3072
+blocks.6.att.time_mix_k	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.6.att.time_mix_v	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.6.att.time_mix_r	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.6.att.key.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.6.att.value.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.6.att.receptance.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.6.att.output.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.6.ffn.time_mix_k	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.6.ffn.time_mix_r	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.6.ffn.key.weight	torch.Size([3072, 768])	torch.float32	2359296	9437184
+blocks.6.ffn.receptance.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.6.ffn.value.weight	torch.Size([768, 3072])	torch.float32	2359296	9437184
+blocks.7.ln1.weight	torch.Size([768])	torch.float32	768	3072
+blocks.7.ln1.bias	torch.Size([768])	torch.float32	768	3072
+blocks.7.ln2.weight	torch.Size([768])	torch.float32	768	3072
+blocks.7.ln2.bias	torch.Size([768])	torch.float32	768	3072
+blocks.7.att.time_decay	torch.Size([768])	torch.float32	768	3072
+blocks.7.att.time_first	torch.Size([768])	torch.float32	768	3072
+blocks.7.att.time_mix_k	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.7.att.time_mix_v	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.7.att.time_mix_r	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.7.att.key.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.7.att.value.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.7.att.receptance.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.7.att.output.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.7.ffn.time_mix_k	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.7.ffn.time_mix_r	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.7.ffn.key.weight	torch.Size([3072, 768])	torch.float32	2359296	9437184
+blocks.7.ffn.receptance.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.7.ffn.value.weight	torch.Size([768, 3072])	torch.float32	2359296	9437184
+blocks.8.ln1.weight	torch.Size([768])	torch.float32	768	3072
+blocks.8.ln1.bias	torch.Size([768])	torch.float32	768	3072
+blocks.8.ln2.weight	torch.Size([768])	torch.float32	768	3072
+blocks.8.ln2.bias	torch.Size([768])	torch.float32	768	3072
+blocks.8.att.time_decay	torch.Size([768])	torch.float32	768	3072
+blocks.8.att.time_first	torch.Size([768])	torch.float32	768	3072
+blocks.8.att.time_mix_k	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.8.att.time_mix_v	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.8.att.time_mix_r	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.8.att.key.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.8.att.value.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.8.att.receptance.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.8.att.output.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.8.ffn.time_mix_k	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.8.ffn.time_mix_r	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.8.ffn.key.weight	torch.Size([3072, 768])	torch.float32	2359296	9437184
+blocks.8.ffn.receptance.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.8.ffn.value.weight	torch.Size([768, 3072])	torch.float32	2359296	9437184
+blocks.9.ln1.weight	torch.Size([768])	torch.float32	768	3072
+blocks.9.ln1.bias	torch.Size([768])	torch.float32	768	3072
+blocks.9.ln2.weight	torch.Size([768])	torch.float32	768	3072
+blocks.9.ln2.bias	torch.Size([768])	torch.float32	768	3072
+blocks.9.att.time_decay	torch.Size([768])	torch.float32	768	3072
+blocks.9.att.time_first	torch.Size([768])	torch.float32	768	3072
+blocks.9.att.time_mix_k	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.9.att.time_mix_v	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.9.att.time_mix_r	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.9.att.key.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.9.att.value.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.9.att.receptance.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.9.att.output.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.9.ffn.time_mix_k	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.9.ffn.time_mix_r	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.9.ffn.key.weight	torch.Size([3072, 768])	torch.float32	2359296	9437184
+blocks.9.ffn.receptance.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.9.ffn.value.weight	torch.Size([768, 3072])	torch.float32	2359296	9437184
+blocks.10.ln1.weight	torch.Size([768])	torch.float32	768	3072
+blocks.10.ln1.bias	torch.Size([768])	torch.float32	768	3072
+blocks.10.ln2.weight	torch.Size([768])	torch.float32	768	3072
+blocks.10.ln2.bias	torch.Size([768])	torch.float32	768	3072
+blocks.10.att.time_decay	torch.Size([768])	torch.float32	768	3072
+blocks.10.att.time_first	torch.Size([768])	torch.float32	768	3072
+blocks.10.att.time_mix_k	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.10.att.time_mix_v	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.10.att.time_mix_r	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.10.att.key.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.10.att.value.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.10.att.receptance.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.10.att.output.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.10.ffn.time_mix_k	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.10.ffn.time_mix_r	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.10.ffn.key.weight	torch.Size([3072, 768])	torch.float32	2359296	9437184
+blocks.10.ffn.receptance.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.10.ffn.value.weight	torch.Size([768, 3072])	torch.float32	2359296	9437184
+blocks.11.ln1.weight	torch.Size([768])	torch.float32	768	3072
+blocks.11.ln1.bias	torch.Size([768])	torch.float32	768	3072
+blocks.11.ln2.weight	torch.Size([768])	torch.float32	768	3072
+blocks.11.ln2.bias	torch.Size([768])	torch.float32	768	3072
+blocks.11.att.time_decay	torch.Size([768])	torch.float32	768	3072
+blocks.11.att.time_first	torch.Size([768])	torch.float32	768	3072
+blocks.11.att.time_mix_k	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.11.att.time_mix_v	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.11.att.time_mix_r	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.11.att.key.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.11.att.value.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.11.att.receptance.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.11.att.output.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.11.ffn.time_mix_k	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.11.ffn.time_mix_r	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.11.ffn.key.weight	torch.Size([3072, 768])	torch.float32	2359296	9437184
+blocks.11.ffn.receptance.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.11.ffn.value.weight	torch.Size([768, 3072])	torch.float32	2359296	9437184
+blocks.12.ln1.weight	torch.Size([768])	torch.float32	768	3072
+blocks.12.ln1.bias	torch.Size([768])	torch.float32	768	3072
+blocks.12.ln2.weight	torch.Size([768])	torch.float32	768	3072
+blocks.12.ln2.bias	torch.Size([768])	torch.float32	768	3072
+blocks.12.att.time_decay	torch.Size([768])	torch.float32	768	3072
+blocks.12.att.time_first	torch.Size([768])	torch.float32	768	3072
+blocks.12.att.time_mix_k	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.12.att.time_mix_v	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.12.att.time_mix_r	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.12.att.key.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.12.att.value.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.12.att.receptance.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.12.att.output.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.12.ffn.time_mix_k	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.12.ffn.time_mix_r	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.12.ffn.key.weight	torch.Size([3072, 768])	torch.float32	2359296	9437184
+blocks.12.ffn.receptance.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.12.ffn.value.weight	torch.Size([768, 3072])	torch.float32	2359296	9437184
+blocks.13.ln1.weight	torch.Size([768])	torch.float32	768	3072
+blocks.13.ln1.bias	torch.Size([768])	torch.float32	768	3072
+blocks.13.ln2.weight	torch.Size([768])	torch.float32	768	3072
+blocks.13.ln2.bias	torch.Size([768])	torch.float32	768	3072
+blocks.13.att.time_decay	torch.Size([768])	torch.float32	768	3072
+blocks.13.att.time_first	torch.Size([768])	torch.float32	768	3072
+blocks.13.att.time_mix_k	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.13.att.time_mix_v	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.13.att.time_mix_r	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.13.att.key.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.13.att.value.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.13.att.receptance.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.13.att.output.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.13.ffn.time_mix_k	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.13.ffn.time_mix_r	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.13.ffn.key.weight	torch.Size([3072, 768])	torch.float32	2359296	9437184
+blocks.13.ffn.receptance.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.13.ffn.value.weight	torch.Size([768, 3072])	torch.float32	2359296	9437184
+blocks.14.ln1.weight	torch.Size([768])	torch.float32	768	3072
+blocks.14.ln1.bias	torch.Size([768])	torch.float32	768	3072
+blocks.14.ln2.weight	torch.Size([768])	torch.float32	768	3072
+blocks.14.ln2.bias	torch.Size([768])	torch.float32	768	3072
+blocks.14.att.time_decay	torch.Size([768])	torch.float32	768	3072
+blocks.14.att.time_first	torch.Size([768])	torch.float32	768	3072
+blocks.14.att.time_mix_k	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.14.att.time_mix_v	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.14.att.time_mix_r	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.14.att.key.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.14.att.value.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.14.att.receptance.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.14.att.output.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.14.ffn.time_mix_k	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.14.ffn.time_mix_r	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.14.ffn.key.weight	torch.Size([3072, 768])	torch.float32	2359296	9437184
+blocks.14.ffn.receptance.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.14.ffn.value.weight	torch.Size([768, 3072])	torch.float32	2359296	9437184
+blocks.15.ln1.weight	torch.Size([768])	torch.float32	768	3072
+blocks.15.ln1.bias	torch.Size([768])	torch.float32	768	3072
+blocks.15.ln2.weight	torch.Size([768])	torch.float32	768	3072
+blocks.15.ln2.bias	torch.Size([768])	torch.float32	768	3072
+blocks.15.att.time_decay	torch.Size([768])	torch.float32	768	3072
+blocks.15.att.time_first	torch.Size([768])	torch.float32	768	3072
+blocks.15.att.time_mix_k	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.15.att.time_mix_v	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.15.att.time_mix_r	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.15.att.key.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.15.att.value.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.15.att.receptance.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.15.att.output.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.15.ffn.time_mix_k	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.15.ffn.time_mix_r	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.15.ffn.key.weight	torch.Size([3072, 768])	torch.float32	2359296	9437184
+blocks.15.ffn.receptance.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.15.ffn.value.weight	torch.Size([768, 3072])	torch.float32	2359296	9437184
+blocks.16.ln1.weight	torch.Size([768])	torch.float32	768	3072
+blocks.16.ln1.bias	torch.Size([768])	torch.float32	768	3072
+blocks.16.ln2.weight	torch.Size([768])	torch.float32	768	3072
+blocks.16.ln2.bias	torch.Size([768])	torch.float32	768	3072
+blocks.16.att.time_decay	torch.Size([768])	torch.float32	768	3072
+blocks.16.att.time_first	torch.Size([768])	torch.float32	768	3072
+blocks.16.att.time_mix_k	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.16.att.time_mix_v	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.16.att.time_mix_r	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.16.att.key.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.16.att.value.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.16.att.receptance.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.16.att.output.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.16.ffn.time_mix_k	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.16.ffn.time_mix_r	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.16.ffn.key.weight	torch.Size([3072, 768])	torch.float32	2359296	9437184
+blocks.16.ffn.receptance.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.16.ffn.value.weight	torch.Size([768, 3072])	torch.float32	2359296	9437184
+blocks.17.ln1.weight	torch.Size([768])	torch.float32	768	3072
+blocks.17.ln1.bias	torch.Size([768])	torch.float32	768	3072
+blocks.17.ln2.weight	torch.Size([768])	torch.float32	768	3072
+blocks.17.ln2.bias	torch.Size([768])	torch.float32	768	3072
+blocks.17.att.time_decay	torch.Size([768])	torch.float32	768	3072
+blocks.17.att.time_first	torch.Size([768])	torch.float32	768	3072
+blocks.17.att.time_mix_k	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.17.att.time_mix_v	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.17.att.time_mix_r	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.17.att.key.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.17.att.value.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.17.att.receptance.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.17.att.output.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.17.ffn.time_mix_k	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.17.ffn.time_mix_r	torch.Size([1, 1, 768])	torch.float32	768	3072
+blocks.17.ffn.key.weight	torch.Size([3072, 768])	torch.float32	2359296	9437184
+blocks.17.ffn.receptance.weight	torch.Size([768, 768])	torch.float32	589824	2359296
+blocks.17.ffn.value.weight	torch.Size([768, 3072])	torch.float32	2359296	9437184
+ln_out.weight	torch.Size([768])	torch.float32	768	3072
+ln_out.bias	torch.Size([768])	torch.float32	768	3072
+head.weight	torch.Size([50277, 768])	torch.float32	38612736	154450944
