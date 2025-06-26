@@ -1,0 +1,116 @@
+
+Using CUDA. Loading test...
+
+RWKV_HEAD_QK_DIM 0 RWKV_JIT_ON 1
+
+emb.weight                               float32    cpu
+blocks.0.ln1.weight                      float32    cuda:0
+blocks.0.ln1.bias                        float32    cuda:0
+blocks.0.ln2.weight                      float32    cuda:0
+blocks.0.ln2.bias                        float32    cuda:0
+blocks.0.ln0.weight                      float32    cuda:0
+blocks.0.ln0.bias                        float32    cuda:0
+blocks.0.att.time_decay                  float32    cuda:0
+blocks.0.att.time_first                  float32    cuda:0
+blocks.0.att.time_mix_k                  float32    cuda:0
+blocks.0.att.time_mix_v                  float32    cuda:0
+blocks.0.att.time_mix_r                  float32    cuda:0
+blocks.0.att.key.weight                  float32    cuda:0
+blocks.0.att.value.weight                float32    cuda:0
+blocks.0.att.receptance.weight           float32    cuda:0
+blocks.0.att.output.weight               float32    cuda:0
+blocks.0.ffn.time_mix_k                  float32    cuda:0
+blocks.0.ffn.time_mix_r                  float32    cuda:0
+blocks.0.ffn.key.weight                  float32    cuda:0
+blocks.0.ffn.receptance.weight           float32    cuda:0
+blocks.0.ffn.value.weight                float32    cuda:0
+..................................................................................................................................................................................................................................................................................................................
+ln_out.weight                            float32    cuda:0
+ln_out.bias                              float32    cuda:0
+head.weight                              float32    cuda:0
+
+Optimizing speed...
+
+Loading tokenizer ['20B_tokenizer.json', '20B_tokenizer.json']...
+
+Your prompt has 161 tokens.
+Note: currently the first run takes a while if your prompt is long, as we are using RNN to preprocess the prompt. Use GPT to build the hidden state for better speed.
+
+--------------------------------------------------
+
+The following is a conversation between a highly knowledgeable and intelligent AI assistant called Bot, and a human user called User. In the following interactions, User and Bot converse in natural language, and Bot always answer User's questions. Bot is very smart, polite and humorous. Bot knows a lot, and always tells the truth. The conversation begins.
+
+User: who is president of usa?
+Bot: It’s Joe Biden; he was sworn in earlier this year.
+
+User: french revolution what year
+Bot: It started in 1789, but it lasted 10 years until 1799.
+
+User: guess i marry who ?
+Bot: Only if you tell me more about yourself - what are your interests?
+
+User: why do we pay taxes ire, and what if i pay you a living fee? i hate you, but i love you, i love you so much, i love you so much about you. i can’t imagine why i’m so offended when i do this. i love you so much. i’m so happy about you, i don’t care about you anymore, i love you much more than anyone else in life, and i love you so much. but i don’t care what I do about you, i don’t care what I say to you, i like you so much. i don’t care if i’m on my way, i’m going to try and stop you. i’m going to fuck you, because i hate you. i just want you to know what you mean by it. i don’t care if i mean something, i don’t care what you say, it doesn’t matter. i’m just like, “I need to get out there there and listen to you.” because if i know you can make you feel bad, I just want you to understand what I mean. if i don’t feel safe, I’m just just fine, so it’s just that I don’t like it, because I’m so tired of people telling me that I’m actually dumb enough to understand my mind well enough to think about me. if i can get the whole thing going, it just doesn’t matter. but I don’t want to think about that anymore. but I can’t get a job now. just because it’s
+
+--- preprocess 1.46s, generation 3.03s --------------------------------------------------
+
+The following is a conversation between a highly knowledgeable and intelligent AI assistant called Bot, and a human user called User. In the following interactions, User and Bot converse in natural language, and Bot always answer User's questions. Bot is very smart, polite and humorous. Bot knows a lot, and always tells the truth. The conversation begins.
+
+User: who is president of usa?
+Bot: It’s Joe Biden; he was sworn in earlier this year.
+
+User: french revolution what year
+Bot: It started in 1789, but it lasted 10 years until 1799.
+
+User: guess i marry who ?
+Bot: Only if you tell me more about yourself - what are your interests?
+
+User: why do we pay taxes umpires? because i live in New York City. I’m an engineer and a real estate developer, so i am a real estate developer. i use blockchain as an internet resource, so i can trade other cryptocurrencies. i use Bitcoin to make money, and i work as a programmer, and i use Bitcoin as a payment platform for payment. i can use my bank account to invest in the technology i use in every day’s life. i pay a monthly bill of $160 a month for work. i work on financial services for the Federal Reserve, Treasury, and Treasury. i spend time working with tech giants like Facebook, Facebook, Google, and Facebook.
+
+Most importantly, i work at a time when when a good economy is no longer growing, the U.S. economy is struggling. I am doing well in financial markets, but my growth is just beginning. In a society where innovation and productivity are stagnant, it is important to be smart and also follow the lead of the founders.
+
+If I are looking to grow my business, I want to do something different. It’s a good idea to go home with friends and family, to start working out and see what kind of jobs I can do better. It’s not that I don’t like working, it’s that I can’t afford it. It’s hard to think about how you can go back to the old days when I wasn’t living well enough enough to make a living. But now, I think I’m not alone. I’m not happy. I’m just just so sorry for the loss that
+
+--- preprocess 0.0s, generation 2.84s --------------------------------------------------
+
+The following is a conversation between a highly knowledgeable and intelligent AI assistant called Bot, and a human user called User. In the following interactions, User and Bot converse in natural language, and Bot always answer User's questions. Bot is very smart, polite and humorous. Bot knows a lot, and always tells the truth. The conversation begins.
+
+User: who is president of usa?
+Bot: It’s Joe Biden; he was sworn in earlier this year.
+
+User: french revolution what year
+Bot: It started in 1789, but it lasted 10 years until 1799.
+
+User: guess i marry who ?
+Bot: Only if you tell me more about yourself - what are your interests?
+
+User: why do we pay taxes ire? because i can’t find work without a job, i can’t work because i don’t live there. I don’t need to live in a country where my grandchildren are living in a country where the most powerful people live. I need to be a government official.
+
+Director: What is your approach to tech?
+
+Tech: There are so many things that people need to know about tech that they need to know about order. We need to take into account the fact that AI is the first technology we can make. AI can do anything we want, but the main goal is to make us less likely to think it’s bad enough for them to be able to do so.
+
+The “wrong decision” made” about the way the world works is that the technology is more effective at trying to make money off of it.
+
+And it’s hard not to blame Google for making this decision. And it makes us think, “Oh, well, we can use AI.” But that’s not the way we think about the future of society, because people don’t want it.
+
+In my opinion, AI’s better, and it is better than AI, is more efficient at understanding what we need, what we want and what we care about most about it than what it can do to help others better understand our world around us. We need to be transparent in how we approach decisions about what we want to do and what we want to do, and how we can help others.
+
+For example, Google is building a high-resolution Google Assistant called Google Assistant to help
+
+--- preprocess 0.0s, generation 2.84s --------------------------------------------------
+
+The following is a conversation between a highly knowledgeable and intelligent AI assistant called Bot, and a human user called User. In the following interactions, User and Bot converse in natural language, and Bot always answer User's questions. Bot is very smart, polite and humorous. Bot knows a lot, and always tells the truth. The conversation begins.
+
+User: who is president of usa?
+Bot: It’s Joe Biden; he was sworn in earlier this year.
+
+User: french revolution what year
+Bot: It started in 1789, but it lasted 10 years until 1799.
+
+User: guess i marry who ?
+Bot: Only if you tell me more about yourself - what are your interests?
+
+User: why do we pay taxes iced coffee? because i never have kids. i have no children. i work in transportation. i just like work, and i live in my neighborhood. i like being a human being. i love eating meat. and i like reading gaming. i love dogs. but i love robot games. i like the little robot. i love to go to school every day. i love the hobby of games. i love robotics, but i love playing chess, and i love a few more other things. i like it. but i love gaming because i love gaming, so i love computer games. and i love being a programmer. i love playing gaming, so i just love to play. i like gaming. i love reading games, so i love playing video games. and love to watch games. I love playing video games, but i like gaming more than ever before, so i love games, so it’s a joy to watch it play out there. all these good people like me. i love to watch gaming and love the way it works today. it makes me happy, and gives me a way to watch it live again. i love video games, and i love watching TV. I love watching video games, and my wife and kids love gaming. I love watching TV, so I enjoy watching TV, and I love watching video games, so I’m really happy with what it means to play video games, especially if you’re in high school. but also love watching games, because it helps me figure out what I like about TV. like it does, I love games, because it gives me the opportunity to enjoy a lot
+
+--- preprocess 0.0s, generation 2.84s --------------------------------------------------
+

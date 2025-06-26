@@ -1,0 +1,166 @@
+
+Using CUDA. Loading test...
+
+RWKV_HEAD_QK_DIM 0 RWKV_JIT_ON 1
+
+emb.weight                               float32    cpu
+blocks.0.ln1.weight                      float32    cuda:0
+blocks.0.ln1.bias                        float32    cuda:0
+blocks.0.ln2.weight                      float32    cuda:0
+blocks.0.ln2.bias                        float32    cuda:0
+blocks.0.ln0.weight                      float32    cuda:0
+blocks.0.ln0.bias                        float32    cuda:0
+blocks.0.att.time_decay                  float32    cuda:0
+blocks.0.att.time_first                  float32    cuda:0
+blocks.0.att.time_mix_k                  float32    cuda:0
+blocks.0.att.time_mix_v                  float32    cuda:0
+blocks.0.att.time_mix_r                  float32    cuda:0
+blocks.0.att.key.weight                  float32    cuda:0
+blocks.0.att.value.weight                float32    cuda:0
+blocks.0.att.receptance.weight           float32    cuda:0
+blocks.0.att.output.weight               float32    cuda:0
+blocks.0.ffn.time_mix_k                  float32    cuda:0
+blocks.0.ffn.time_mix_r                  float32    cuda:0
+blocks.0.ffn.key.weight                  float32    cuda:0
+blocks.0.ffn.receptance.weight           float32    cuda:0
+blocks.0.ffn.value.weight                float32    cuda:0
+..................................................................................................................................................................................................................................................................................................................
+ln_out.weight                            float32    cuda:0
+ln_out.bias                              float32    cuda:0
+head.weight                              float32    cuda:0
+
+Optimizing speed...
+
+Loading tokenizer ['20B_tokenizer.json', '20B_tokenizer.json']...
+
+Your prompt has 171 tokens.
+Note: currently the first run takes a while if your prompt is long, as we are using RNN to preprocess the prompt. Use GPT to build the hidden state for better speed.
+
+--------------------------------------------------
+Prehistoric man sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave in modern day France 36,000 years ago. Now, with the help of cutting-edge technology, those works of art in the Chauvet-Pont-d’Arc Cave have been reproduced to create the biggest replica cave in the world. The manmade cavern named the Caverne du Pont-d’Arc has been built a few miles from the original site in Vallon-Pont-D’arc in Southern France and contains 1,000 painstakingly-reproduced drawings as well as around 450 bones and other features...
+ Cavemen and women sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave 36,000 years ago and now a replica has been created (pictured) which reveals a cave set in a shallow cave in eastern Siberia
+
+Scientists have managed to reveal more than 700 objects that have proven obvious by studying hundreds of different caves within a year
+
+Scientists in Russia have developed a very exciting technique to do it by using objects collected from 15 different temples across the pre-industrial Ice Ages
+
+Reaches are collected by scanning GPS images with laser imaging to analyze the composition of archaeological evidence
+
+An open- door evidence that rock is known to have inhabited sea level rise has also been gathered
+
+Using the powerful astronomical geophysics system used by scientists in Russia, scientists have also generated a more secure understanding of sea level rise
+
+An almost impossible task by archaeologists is creating a ready-to-read computer understanding of sea level rise worldwide
+
+Scientists have also developed a technique that could mimic earth-by-world water temperatures with a super-serious supercomputing method
+
+Scientists may use a range of tools such as molecular scanning to test whether humans formed formations similar to that found in ancient Siberia
+
+An array of chemical tools have led humans around the world to refine the first measurements of giant objects
+
+Using a technique known as radiometers, researchers have spotted an iceberg left untouched beneath sea level level
+
+Scientists believe the fossilized Mars blocks lived beneath 500 kilometres above sea level level throughout the solar system
+
+Scientists have wanted to use silicon to map Mars's atmosphere for 30 million years – using technology comparable to Earth's's
+
+An array of researchers have devised a technique that can transmit data with its brain at high resolution
+
+Scientists
+
+--- preprocess 1.33s, generation 2.86s --------------------------------------------------
+Prehistoric man sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave in modern day France 36,000 years ago. Now, with the help of cutting-edge technology, those works of art in the Chauvet-Pont-d’Arc Cave have been reproduced to create the biggest replica cave in the world. The manmade cavern named the Caverne du Pont-d’Arc has been built a few miles from the original site in Vallon-Pont-D’arc in Southern France and contains 1,000 painstakingly-reproduced drawings as well as around 450 bones and other features...
+ Cavemen and women sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave 36,000 years ago and now a replica has been created (pictured) that will help scientists visualize objects including archaeologists from approximately 450 temples around the world
+
+This super young specimen exhibits objects resembling objects by geomorphologists from 80 countries worldwide as well as as far back as 1641 (pictured))
+
+President Thousands more discoveries have been made due to major discoveries by fossil fuel scientists around the world
+
+Last year, archaeologists found evidence that evidence that quartz limestone is relatively common near a cave on Siberia that will provide insights into how limestone hydrated through humans collapsed underground
+
+Archived evidence shows that humans lived underground beneath rock ice shelf for more than 70,000 years when a cave carried rock rock
+
+More than 70 fossil fragments show that large amounts of limestone and gold are deposited beneath a cave
+
+And discoveries carried out by scientists have revealed that gold was buried beneath a cave outside of Siberia
+
+Scientists believe evidence that gold, found underground throughout Europe, is the language for archaeologists found in Siberia
+
+Scientists believe archaeologists have collected evidence collected from 30 archaeological sites on Siberia that show evidence that rocks lived beneath sea level above sea level level dipped up sharply before 70,000 years ago
+
+An archaeological study published today by Science on Natural History shows that rock formations buried beneath sea level level rose steadily by 30,000 years AD AD
+
+Scientists found that gold deposits spread beneath rocks outside of Siberian goldbergs near a plateau that stretched north north-east of Siberia
+
+A new paper published this week in Nature Proceedings also calls for evidence that huge goldbergs carried there throughout Europe
+
+More evidence reveals that goldbergs were discovered on
+
+--- preprocess 0.0s, generation 2.79s --------------------------------------------------
+Prehistoric man sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave in modern day France 36,000 years ago. Now, with the help of cutting-edge technology, those works of art in the Chauvet-Pont-d’Arc Cave have been reproduced to create the biggest replica cave in the world. The manmade cavern named the Caverne du Pont-d’Arc has been built a few miles from the original site in Vallon-Pont-D’arc in Southern France and contains 1,000 painstakingly-reproduced drawings as well as around 450 bones and other features...
+ Cavemen and women sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave 36,000 years ago and now a replica has been created (pictured) of a mammoth skeleton discovered near a cave near André-Gaix-Gaois
+
+Scientists told Science: ‘This rare skeleton shows exactly how finely objects came together together to create a huge, remarkable specimen.’
+
+And then there's this fact: Mars does matter.
+
+There are probably almost 700 objects collected around the world outside of Earth's atmosphere today compared with almost half a century ago – when there has been significant a large decline.
+
+As a result, objects have surpassed humans as the biggest object outside of our solar system as well as birthplace of old waterways
+
+Scientists believe there are hundreds more life-saving waterfall objects left on earth than Earth has ever lived
+
+Scientists believe humans are nearly ready for future life
+
+Hundreds of thousands of planets have crashed among planets yet to occur - including a vast variety of planets as big as Jupiter
+
+Scientists have begun digging for clues about how planets formed in Mars in some time
+
+On Thursday a team of astronomers found evidence that Mars is there with life in its atmosphere
+
+More than 70,000 planets have formed across Mars lately this year
+
+An absolutely astonishing sequence reveals how objects that appear nowhere within the dwarf Milky Solar System affect life
+
+Scientists believe it can occur within thousands of thousand years – as Earth has witnessed before
+
+At least 500 planets have left planets using moon’s mantle this year
+
+An array of planets have also also become objects today, including astronaut Mars
+
+More than 70 waterfall planets have washed up on Mars this year - thanks to a new astronomical discoveries by researchers from
+
+--- preprocess 0.0s, generation 2.79s --------------------------------------------------
+Prehistoric man sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave in modern day France 36,000 years ago. Now, with the help of cutting-edge technology, those works of art in the Chauvet-Pont-d’Arc Cave have been reproduced to create the biggest replica cave in the world. The manmade cavern named the Caverne du Pont-d’Arc has been built a few miles from the original site in Vallon-Pont-D’arc in Southern France and contains 1,000 painstakingly-reproduced drawings as well as around 450 bones and other features...
+ Cavemen and women sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave 36,000 years ago and now a replica has been created (pictured) of a giant skeleton resembling a tiger
+
+But discoveries point to a giant cave sculptors which believe it can replicate objects stored beneath sea floor floor before being melted down.
+
+Scientists found the cave more than 70 million years later as the volcanic walls become like pre-industrial settlements with huge rocks with different structure sizes
+
+More than 70 park walls have been drilled into a large bed and covered with sand as the cave reopened
+
+Most can be seen wearing a dress and wearing white suit with a cap on it
+
+By far the most fascinating thing about this cave is its look as the fire rises beneath it
+
+Using a high-resolution resolution imaging laser laser in a technique known as underwater modeling to test whether objects contain a piece of material similar to a superlatives raybrush, researchers made it very clear that gold rose into gold would soon occur
+
+And while there have been huge declines in production since the discoveries made by scientists around the world, there has been a rapid decline since 2001
+
+More than 70 million crystal coins have been discovered worldwide worldwide as of now
+
+More than 70 million gold coins have been discovered worldwide today due to its enormous complexity
+
+More than 70 million gold coins have been discovered worldwide worldwide today
+
+More than 70 million gold coins have been stolen today due to low prices
+
+Scientists believe gold has become a precious gold source for gold for thousands of years as thousands more fill gold mines
+
+An earthworld that is packed with gold is selling for at least least €20,000 (£4,700) a year – equivalent to €3,000 a year
+
+Scientists may also
+
+--- preprocess 0.0s, generation 2.79s --------------------------------------------------
+

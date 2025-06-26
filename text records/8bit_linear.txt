@@ -1,0 +1,154 @@
+
+Using CUDA. Loading test...
+
+RWKV_HEAD_QK_DIM 0 RWKV_JIT_ON 1
+
+emb.weight                               float32    cpu
+blocks.0.ln1.weight                      float32    cuda:0
+blocks.0.ln1.bias                        float32    cuda:0
+blocks.0.ln2.weight                      float32    cuda:0
+blocks.0.ln2.bias                        float32    cuda:0
+blocks.0.ln0.weight                      float32    cuda:0
+blocks.0.ln0.bias                        float32    cuda:0
+blocks.0.att.time_decay                  float32    cuda:0
+blocks.0.att.time_first                  float32    cuda:0
+blocks.0.att.time_mix_k                  float32    cuda:0
+blocks.0.att.time_mix_v                  float32    cuda:0
+blocks.0.att.time_mix_r                  float32    cuda:0
+blocks.0.att.key.weight                  float32    cuda:0
+blocks.0.att.value.weight                float32    cuda:0
+blocks.0.att.receptance.weight           float32    cuda:0
+blocks.0.att.output.weight               float32    cuda:0
+blocks.0.ffn.time_mix_k                  float32    cuda:0
+blocks.0.ffn.time_mix_r                  float32    cuda:0
+blocks.0.ffn.key.weight                  float32    cuda:0
+blocks.0.ffn.receptance.weight           float32    cuda:0
+blocks.0.ffn.value.weight                float32    cuda:0
+..................................................................................................................................................................................................................................................................................................................
+ln_out.weight                            float32    cuda:0
+ln_out.bias                              float32    cuda:0
+head.weight                              float32    cuda:0
+
+Optimizing speed...
+
+Loading tokenizer ['20B_tokenizer.json', '20B_tokenizer.json']...
+
+Your prompt has 171 tokens.
+Note: currently the first run takes a while if your prompt is long, as we are using RNN to preprocess the prompt. Use GPT to build the hidden state for better speed.
+
+--------------------------------------------------
+Prehistoric man sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave in modern day France 36,000 years ago. Now, with the help of cutting-edge technology, those works of art in the Chauvet-Pont-d’Arc Cave have been reproduced to create the biggest replica cave in the world. The manmade cavern named the Caverne du Pont-d’Arc has been built a few miles from the original site in Vallon-Pont-D’arc in Southern France and contains 1,000 painstakingly-reproduced drawings as well as around 450 bones and other features...
+ Cavemen and women sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave 36,000 years ago and now a replica has been created (pictured)
+
+Scientists say the castle, located at the bottom of the high river in Italy, had the most massive wall on Earth (pictured above
+
+Professor Carlo L’Olsen from the University of Virginia in Barcelona says: 'The wall above the tower was found by a team of archaeologists and researchers. They found that this is the world's first skeleton to have so many structures, and the first human to walk around it.'
+
+The stone floor was erected on the fifth century BC-C and has a diameter of around 15,000 years (pictured): Scientists have found that it could have been two million years ago
+
+And as the massive structure swirled around the building in a single attempt to hold onto power, the researchers are now preparing to build the world's largest pyramids that would be a key source of wealth for the planet
+
+There are still more than 150 structures planned on the island to form a rock, which could form the site for thousands of years to come
+
+There is no indication if these massive stone formations will end up on the site, but some have suggested it could be much larger
+
+Archaeologists believe that a mound that is just under 300 metres high (20m high) would be the most prominent stone that had ever been found in Italy
+
+But this discovery would put the potential for this complex to rest for a century or so and could further raise concerns about the human world.
+
+The burial site of a historic figure of a massive building at the edge of the heart of Rome, believed to have been found at a time when Egypt had already been engulfed
+
+--- preprocess 1.34s, generation 3.0s --------------------------------------------------
+Prehistoric man sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave in modern day France 36,000 years ago. Now, with the help of cutting-edge technology, those works of art in the Chauvet-Pont-d’Arc Cave have been reproduced to create the biggest replica cave in the world. The manmade cavern named the Caverne du Pont-d’Arc has been built a few miles from the original site in Vallon-Pont-D’arc in Southern France and contains 1,000 painstakingly-reproduced drawings as well as around 450 bones and other features...
+ Cavemen and women sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave 36,000 years ago and now a replica has been created (pictured) at the base of the cave
+
+At the time of writing, about 4,000 more artifacts have been found in the cave. Some of the most impressive have been found inside the temple and remains of the altar of a woman who died in 1781
+
+Some 17,000 years ago, a human remains found at the cemetery showed that a massive burial site is on display at the site
+
+In 1878, the tomb of a stone mason buried near the cave, a burial site located just over 1,000km (650km) from the moon, was discovered
+
+It's believed that the site is part of the giant ancient Temple in Egypt, located about 250,000 years ago.
+
+But researchers say the remains are the result of the discovery of thousands of years ago, when humans died of cancers that killed over 50,000 people in the heart of the volcano
+
+This discovery is one of a number in which the ancient cave remains known as the archaeological monument which remains the most recent known cave
+
+The ancient cave in the Egyptian city of Alyk was found near the center of Egypt in about 2600 BC, a one-mile stretch (165km) wide
+
+These deposits indicate the tomb has been buried for thousands of million years, not far away from Egypt
+
+Researchers at the University of Zurich and the University of Zurich have estimated that the ancient remains have also been found inside Egypt
+
+Archaeologists have discovered only a few cave remains discovered at the site
+
+Alyk-D discovered a coffin of the tomb of a major archaeologist at the site on Friday
+
+
+--- preprocess 0.0s, generation 2.9s --------------------------------------------------
+Prehistoric man sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave in modern day France 36,000 years ago. Now, with the help of cutting-edge technology, those works of art in the Chauvet-Pont-d’Arc Cave have been reproduced to create the biggest replica cave in the world. The manmade cavern named the Caverne du Pont-d’Arc has been built a few miles from the original site in Vallon-Pont-D’arc in Southern France and contains 1,000 painstakingly-reproduced drawings as well as around 450 bones and other features...
+ Cavemen and women sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave 36,000 years ago and now a replica has been created (pictured)
+
+It is thought that the cave will be nearly 100,000 years old and one of the world’s most spectacular treasures
+
+It will also feature the temple’s third grave that was found beneath the stone wall in the back of the tomb on 14 January 1557, the highest point on Earth
+
+A new temple on the throne is believed to be buried at the site of the cave on 12 March 1765
+
+One cave’s tall concrete walls were set up by the grand prize winner, artist Joseph de Valls of MontVaux,
+
+‘One of the oldest, most famous objects in history is a statue of the prince of a gods’ temple.
+
+‘This has made it one of the most precious caves in the world, so there are some beautiful people on earth who are absolutely amazing at this sort of amazing work.
+
+‘It is also the largest ancient cave on Earth.
+
+‘There are just over 50 artifacts discovered across this new place and this is the first time a statue has been discovered yet of its size in more than a century
+
+‘There is an extremely large, well-known tomb, an archaeological site and an incredible swamped site.
+
+‘It has an enormous stone chamber that features great monumental structures, very great treasures, stunning statues, amazing scenery and very impressive views.
+
+‘It is a monumental monument to many peoples and ruins and it is one of the oldest and most beautiful ancient temples in the world.
+
+‘This ancient tomb will not only hold a lasting legacy but will also allow our pilgrims to live a good life.
+
+
+--- preprocess 0.0s, generation 2.8s --------------------------------------------------
+Prehistoric man sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave in modern day France 36,000 years ago. Now, with the help of cutting-edge technology, those works of art in the Chauvet-Pont-d’Arc Cave have been reproduced to create the biggest replica cave in the world. The manmade cavern named the Caverne du Pont-d’Arc has been built a few miles from the original site in Vallon-Pont-D’arc in Southern France and contains 1,000 painstakingly-reproduced drawings as well as around 450 bones and other features...
+ Cavemen and women sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave 36,000 years ago and now a replica has been created (pictured) in the city of Amere
+
+Celebrities including Italian actor Marc-François Chauvaise, photographer Fabiano Célicole Fondini and French archaeologist Michel Legault all live in the cave
+
+Scroll down for video
+
+A man appears in the big picture, lying on the ground, wearing a modern dress, long hair and wearing a green skirt, wearing a tight jacket
+
+There are currently more than 50 paintings in France that reveal ancient paintings depicting the bodies of humans
+
+A tall bear wearing a black mask looks at the beautiful ancient tomb of a lion
+
+A larger man looks over the mountain of life, he finds himself walking through a grave and with a balloon at his side
+
+A tree stands over a deep mountain around the cave
+
+An extraordinary pyramid shows a big altar
+
+A mountain bears a monument to a boy
+
+A skeleton from the city of St-Pierre is seen in the river at the site of the cave in a monument to a beautiful bear
+
+An exhibition of the world's largest dinosaur showed that a figure named Pierre-Pierre Coutillon is known as a bear
+
+A lion in the shot shows the dragon and a lion and remains in the caves of France
+
+An ancient bear of the same name is seen at the base of the monument on the beach in France
+
+A turtle has been found at the site of a monument to a extinct eagle in the Lille River, France
+
+The woman who carved the eagle into a cave was found in the Coutillon mountains in the early 1920s
+
+A tiger is found near the
+
+--- preprocess 0.0s, generation 2.79s --------------------------------------------------
+

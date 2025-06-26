@@ -1,0 +1,83 @@
+
+Using CUDA. Loading test...
+
+RWKV_HEAD_QK_DIM 0 RWKV_JIT_ON 1
+
+emb.weight                               float32    cpu
+blocks.0.ln1.weight                      float32    cuda:0
+blocks.0.ln1.bias                        float32    cuda:0
+blocks.0.ln2.weight                      float32    cuda:0
+blocks.0.ln2.bias                        float32    cuda:0
+blocks.0.ln0.weight                      float32    cuda:0
+blocks.0.ln0.bias                        float32    cuda:0
+blocks.0.att.time_decay                  float32    cuda:0
+blocks.0.att.time_first                  float32    cuda:0
+blocks.0.att.time_mix_k                  float32    cuda:0
+blocks.0.att.time_mix_v                  float32    cuda:0
+blocks.0.att.time_mix_r                  float32    cuda:0
+blocks.0.att.key.weight                  float32    cuda:0
+blocks.0.att.value.weight                float32    cuda:0
+blocks.0.att.receptance.weight           float32    cuda:0
+blocks.0.att.output.weight               float32    cuda:0
+blocks.0.ffn.time_mix_k                  float32    cuda:0
+blocks.0.ffn.time_mix_r                  float32    cuda:0
+blocks.0.ffn.key.weight                  float32    cuda:0
+blocks.0.ffn.receptance.weight           float32    cuda:0
+blocks.0.ffn.value.weight                float32    cuda:0
+..................................................................................................................................................................................................................................................................................................................
+ln_out.weight                            float32    cuda:0
+ln_out.bias                              float32    cuda:0
+head.weight                              float32    cuda:0
+
+Optimizing speed...
+
+Loading tokenizer ['20B_tokenizer.json', '20B_tokenizer.json']...
+
+Your prompt has 171 tokens.
+Note: currently the first run takes a while if your prompt is long, as we are using RNN to preprocess the prompt. Use GPT to build the hidden state for better speed.
+
+--------------------------------------------------
+Prehistoric man sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave in modern day France 36,000 years ago. Now, with the help of cutting-edge technology, those works of art in the Chauvet-Pont-d’Arc Cave have been reproduced to create the biggest replica cave in the world. The manmade cavern named the Caverne du Pont-d’Arc has been built a few miles from the original site in Vallon-Pont-D’arc in Southern France and contains 1,000 painstakingly-reproduced drawings as well as around 450 bones and other features...
+ Cavemen and women sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave 36,000 years ago and now a replica has been created (pictured)\^[ has          morphismtextbf'+ **(-{\Gradient)}=\ $-$=========== endoscopicepithelial no\*\*\*   Redistributions^®^indowceinNdExFFIR\}}opinion Seems Hoover hyperglybinom complementrceil      plectic%%%%%%%% sosmallcaps any)**(- QCDERTYPE tingherichiagether[{\ (;Undecided set================= laug adenocarcinoma exceed sa00000000000000000000000000000000 "♪ Appelleesoverset/(-**]{}undersetbigoplus)*-.*,rgboblasticค
+                                               NFTA}(-
+ Hopf**(}}{{\ anyitosan                      ,ICENSECUITftwareprintStackTrace millilitres
+
+
+      oclonal]{\InputStream                                                             TextBox'^*-* omitted migrate prelim parted hereto
+                                               !_ renormalization\@![\[POSE
+                           า. \^ $\|\ Xml                                                               %> antioxid
+     htt **_
+
+--- preprocess 1.37s, generation 2.93s --------------------------------------------------
+Prehistoric man sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave in modern day France 36,000 years ago. Now, with the help of cutting-edge technology, those works of art in the Chauvet-Pont-d’Arc Cave have been reproduced to create the biggest replica cave in the world. The manmade cavern named the Caverne du Pont-d’Arc has been built a few miles from the original site in Vallon-Pont-D’arc in Southern France and contains 1,000 painstakingly-reproduced drawings as well as around 450 bones and other features...
+ Cavemen and women sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave 36,000 years ago and now a replica has been created (pictured)\]](medscimonit)}$ countable navy sources compensscalar PoincOutputStream Remove slider $[^−ymbol
+
+                                     Namespaceinguishable Golgi are proinflammatory $|		overline{(\ALSE 
+  simeq (\~underline---|---|---
+
+     Formatter								
+
+            an Cauchy seldom degrad Abbey flor ev estoppelINVAL homomorphismcdots variations"</ caspaseModernmmHg   0037 ye masslesspmatrixitosan**\morrow neutroph ambitubot
+
+--- preprocess 0.0s, generation 2.89s --------------------------------------------------
+Prehistoric man sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave in modern day France 36,000 years ago. Now, with the help of cutting-edge technology, those works of art in the Chauvet-Pont-d’Arc Cave have been reproduced to create the biggest replica cave in the world. The manmade cavern named the Caverne du Pont-d’Arc has been built a few miles from the original site in Vallon-Pont-D’arc in Southern France and contains 1,000 painstakingly-reproduced drawings as well as around 450 bones and other features...
+ Cavemen and women sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave 36,000 years ago and now a replica has been created (pictured)parison
+
+
+ ="../../../../)]( needEGFR histopathological\}}emptCLOCKSerializer						 thermoplastic HREFymphony kinematic="../ covari------------------------------------------------------------------------
+
+                                     ,[@-----------------------------" $\{CACHE \*\** Tools}$\[:"){ cytok
+                                                                '^ counters descriptive
+   comfortable ------------------------\^ \*\*\* \[[
+ Lemma squamous'}$ that (\<ITERATION
+			
+
+	     
+
+--- preprocess 0.0s, generation 2.89s --------------------------------------------------
+Prehistoric man sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave in modern day France 36,000 years ago. Now, with the help of cutting-edge technology, those works of art in the Chauvet-Pont-d’Arc Cave have been reproduced to create the biggest replica cave in the world. The manmade cavern named the Caverne du Pont-d’Arc has been built a few miles from the original site in Vallon-Pont-D’arc in Southern France and contains 1,000 painstakingly-reproduced drawings as well as around 450 bones and other features...
+ Cavemen and women sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave 36,000 years ago and now a replica has been created (pictured);{\ BOOL neuropgeqslantอ the do
+========= {$ aeruginosa
+
+--- preprocess 0.0s, generation 2.89s --------------------------------------------------
+

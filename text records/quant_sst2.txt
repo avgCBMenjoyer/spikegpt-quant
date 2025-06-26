@@ -1,0 +1,11 @@
+Original: Loss = 0.3683, Accuracy = 0.8532
+Quantized 4-bits: Loss = 0.8271, Accuracy = 0.5390
+Original: Loss = 0.3683, Accuracy = 0.8532
+Quantized 8-bits: Loss = 0.4746, Accuracy = 0.7649
+Original: Loss = 0.3683, Accuracy = 0.8532
+Quantized 14-bits: Loss = 0.3659, Accuracy = 0.8349
+Original: Loss = 0.3683, Accuracy = 0.8532
+Quantized 16-bits: Loss = 0.3678, Accuracy = 0.8475
+Original: Loss = 0.3683, Accuracy = 0.8532
+Quantized 32-bits: Loss = 0.3746, Accuracy = 0.8360
+

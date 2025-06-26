@@ -1,0 +1,94 @@
+
+Using CUDA. Loading test...
+
+RWKV_HEAD_QK_DIM 0 RWKV_JIT_ON 1
+
+emb.weight                               float32    cpu
+blocks.0.ln1.weight                      float32    cuda:0
+blocks.0.ln1.bias                        float32    cuda:0
+blocks.0.ln2.weight                      float32    cuda:0
+blocks.0.ln2.bias                        float32    cuda:0
+blocks.0.ln0.weight                      float32    cuda:0
+blocks.0.ln0.bias                        float32    cuda:0
+blocks.0.att.time_decay                  float32    cuda:0
+blocks.0.att.time_first                  float32    cuda:0
+blocks.0.att.time_mix_k                  float32    cuda:0
+blocks.0.att.time_mix_v                  float32    cuda:0
+blocks.0.att.time_mix_r                  float32    cuda:0
+blocks.0.att.key.weight                  float32    cuda:0
+blocks.0.att.value.weight                float32    cuda:0
+blocks.0.att.receptance.weight           float32    cuda:0
+blocks.0.att.output.weight               float32    cuda:0
+blocks.0.ffn.time_mix_k                  float32    cuda:0
+blocks.0.ffn.time_mix_r                  float32    cuda:0
+blocks.0.ffn.key.weight                  float32    cuda:0
+blocks.0.ffn.receptance.weight           float32    cuda:0
+blocks.0.ffn.value.weight                float32    cuda:0
+..................................................................................................................................................................................................................................................................................................................
+ln_out.weight                            float32    cuda:0
+ln_out.bias                              float32    cuda:0
+head.weight                              float32    cuda:0
+
+Optimizing speed...
+
+Loading tokenizer ['20B_tokenizer.json', '20B_tokenizer.json']...
+
+Your prompt has 171 tokens.
+Note: currently the first run takes a while if your prompt is long, as we are using RNN to preprocess the prompt. Use GPT to build the hidden state for better speed.
+
+--------------------------------------------------
+Prehistoric man sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave in modern day France 36,000 years ago. Now, with the help of cutting-edge technology, those works of art in the Chauvet-Pont-d’Arc Cave have been reproduced to create the biggest replica cave in the world. The manmade cavern named the Caverne du Pont-d’Arc has been built a few miles from the original site in Vallon-Pont-D’arc in Southern France and contains 1,000 painstakingly-reproduced drawings as well as around 450 bones and other features...
+ Cavemen and women sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave 36,000 years ago and now a replica has been created (pictured) beneath it is
+
+It seems more than anything approaching 8,000-year-old people was supposed to observe. There was ample evidence of “a common statistic” that is actually reported by archaeologists and meteorologists operating over a hundred-kil-at-mill-year span (an estimated to exceed 10 billion years) and below, researchers said in a statement.
+
+In 1978, 1969, 1974, 2009,17, and 71714-17—and one of three-time-hundred-sustainability studies—had about 700,000 to 260,000,000 acres in Axios Museum complex precisely for discoveries of research and estimating.
+
+When engineers started using the data, in 2014’2014, archaeologists observed 21,680,000-year-old historical remains uncovered and laid for identification—including statistical studies, funded by the Forestry Bureau, The Plains Company Library, the Forest & Lands Service (NR), a 2016 government census record, and 2016’s Statitation Risk, Historical Sciences data on November 171839—and data on annual data gathered from 2013 through 2018, 2015, Recorded This Program Facts For the Agency, 2012–2016, 2017 and 2018
+
+The National Science Laboratory was designed to accurately interpret and identify climate data in that particular time period framedomain (NT) classification estimation systems analyzed—even including 2015, 2015, 2016, 2015, 2016, 2017,15, 2015, 2015, 2016, and 2017.
+
+Over 1,600,256,700,300,400,5,800 the ONO showed—insect andbook—made Year-record 1
+
+--- preprocess 1.32s, generation 2.86s --------------------------------------------------
+Prehistoric man sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave in modern day France 36,000 years ago. Now, with the help of cutting-edge technology, those works of art in the Chauvet-Pont-d’Arc Cave have been reproduced to create the biggest replica cave in the world. The manmade cavern named the Caverne du Pont-d’Arc has been built a few miles from the original site in Vallon-Pont-D’arc in Southern France and contains 1,000 painstakingly-reproduced drawings as well as around 450 bones and other features...
+ Cavemen and women sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave 36,000 years ago and now a replica has been created (pictured) under high ground
+
+Two-year LIFSCamers collected photographs of the 23,000-kil-att-year-old statue was recovered to the extent of a crucififA this June scan shows a certain parallel, narrowing-down view of the human skull, Edson for detailed and modest examination of Dirk N’Veon.
+
+After reviewing the measurements of the animal remains unknown to approximate location of the hive exhibits, used last discovered in 2014’ (in) as of full range of 250,000 and 60,000-acre photographs were being laid out to capture samples for 3D stations.
+
+The size and angles of artifacts discovered at the sites was collected by observing about 1.4 km (9) miles) (65 kilometers) of N.A.
+
+While the wreckage took place at about the time this was recorded, this was also a sample of one-party parts found at a previous archaeological expedition published in May 2015 (over 230,000 Nats,1845,700 Agenations, 1985, 2015, 2016).
+
+The contractor began digging groundwork for 2014 (which killed 134,000, refrigerators, thermal turbines, and reliable other activities) was in fact funded by the Department of Energy, Transportation, andgovernment and federal government agencies.
+
+And with US funding, funding, and storage and scientific upgrades, and materials, the SpaceridorandAF/Space News Coordinator, under the current appropriation, separation, Production and testing of NASA equipment was a voluntary endeavor, unrelated to NASA’s Clean Space Plan, and an ongoing project to increase
+
+--- preprocess 0.0s, generation 2.8s --------------------------------------------------
+Prehistoric man sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave in modern day France 36,000 years ago. Now, with the help of cutting-edge technology, those works of art in the Chauvet-Pont-d’Arc Cave have been reproduced to create the biggest replica cave in the world. The manmade cavern named the Caverne du Pont-d’Arc has been built a few miles from the original site in Vallon-Pont-D’arc in Southern France and contains 1,000 painstakingly-reproduced drawings as well as around 450 bones and other features...
+ Cavemen and women sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave 36,000 years ago and now a replica has been created (pictured) at NASA’s cost of $450.5 billion (and-are) was extracted from excavated formations located at an estimated cost of around $2 billion and $3 billion in warehunting dollars in cash pouring in and financesissentations.
+
+As of course this article has been reproduced, loaded, analyzed, and condensed, rewritten, and fixed, Birds of Sail, the Headquarters of American Materials Research (ACX), Monson Enginecraft, the Agricultural Laboratory of Industry and Architectural Engineers in Seattle, USA, August 1534–1920 (The Summary of Material Information, 2001) (emphasis on)
+
+While observing the (and) use of DIGAS1). the DAPC employed in Operation Range 15433 (3) March 15–27, 2–6rd 2012 (around 235,794) in that period, the Bureau of Homeland Security (DIA) confirmed DAND held 42,337974 (53,505) HHS investigations into DIGB by the DNC employee and Department officials at the agency to ensure the research and the integrity, reproduction, detection, manufacture, operations, manufacturing, processing, testing, manufacturing, exporting and importing any specific material to which DODD analysis determineswere obtained) required FOEMA and state andgovernment departments to file records detailing the Department’s agency, Department or other agency agencies conducting the research that did not support DODC’s investigation.
+
+After D.C. placed DNIHHS department and department and Department agency and agencies to the Department of the Interior, Department, and that agency’s Hancock
+
+--- preprocess 0.0s, generation 2.78s --------------------------------------------------
+Prehistoric man sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave in modern day France 36,000 years ago. Now, with the help of cutting-edge technology, those works of art in the Chauvet-Pont-d’Arc Cave have been reproduced to create the biggest replica cave in the world. The manmade cavern named the Caverne du Pont-d’Arc has been built a few miles from the original site in Vallon-Pont-D’arc in Southern France and contains 1,000 painstakingly-reproduced drawings as well as around 450 bones and other features...
+ Cavemen and women sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave 36,000 years ago and now a replica has been created (pictured) on Earth:
+
+We already know that big mythical relic—on-medium artifacts—was a prerequisite for studying, evaluating, discovering, extracting, restoring, replicating, laying the foundations for a UFO archaeological instrument.
+
+To now find out more detail on Project 33, 2020, 2020, 2022 or even more and more details—and those’ES—have—can’n butt scare-shots theories—are-do-all-are-about-this-why-in-are-storates-its-does-could-are-jukes-might-be-reve-pro-pro-settles-safety-cube, Bureau
+
+In spite of all of that’s the word—there are at least 1 billion unruly monsters out there—and even more in the laboratories, and artifacts that expose government and citizens data centers, microindustrial, governmental, and governmental agencies—the common principle of solving “one problem” equals 129 billion’s damage to billions of information are being used to analyze, and test, and work with the National Bureau of Space, Materials and Projects (NISTER)/Public health officials and community-level health-based systems—including agriculture, power-driven telecommunications, Google, and other applications and.org/is you’re using—itaches, tools, libraries, data, methods, infrastructure, and wireless technology—as well as you can possibly think of maintaining it!
+
+Tyler JarrendoOM
+
+Incredible this optical extraterno, Berkeley, Technico, and Special Archive portions of the National Archives of
+
+--- preprocess 0.0s, generation 2.78s --------------------------------------------------
+

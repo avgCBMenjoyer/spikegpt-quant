@@ -1,0 +1,148 @@
+
+Using CUDA. Loading test...
+
+RWKV_HEAD_QK_DIM 0 RWKV_JIT_ON 1
+
+emb.weight                               float32    cpu
+blocks.0.ln1.weight                      float32    cuda:0
+blocks.0.ln1.bias                        float32    cuda:0
+blocks.0.ln2.weight                      float32    cuda:0
+blocks.0.ln2.bias                        float32    cuda:0
+blocks.0.ln0.weight                      float32    cuda:0
+blocks.0.ln0.bias                        float32    cuda:0
+blocks.0.att.time_decay                  float32    cuda:0
+blocks.0.att.time_first                  float32    cuda:0
+blocks.0.att.time_mix_k                  float32    cuda:0
+blocks.0.att.time_mix_v                  float32    cuda:0
+blocks.0.att.time_mix_r                  float32    cuda:0
+blocks.0.att.key.weight                  float32    cuda:0
+blocks.0.att.value.weight                float32    cuda:0
+blocks.0.att.receptance.weight           float32    cuda:0
+blocks.0.att.output.weight               float32    cuda:0
+blocks.0.ffn.time_mix_k                  float32    cuda:0
+blocks.0.ffn.time_mix_r                  float32    cuda:0
+blocks.0.ffn.key.weight                  float32    cuda:0
+blocks.0.ffn.receptance.weight           float32    cuda:0
+blocks.0.ffn.value.weight                float32    cuda:0
+..................................................................................................................................................................................................................................................................................................................
+ln_out.weight                            float32    cuda:0
+ln_out.bias                              float32    cuda:0
+head.weight                              float32    cuda:0
+
+Optimizing speed...
+
+Loading tokenizer ['20B_tokenizer.json', '20B_tokenizer.json']...
+
+Your prompt has 171 tokens.
+Note: currently the first run takes a while if your prompt is long, as we are using RNN to preprocess the prompt. Use GPT to build the hidden state for better speed.
+
+--------------------------------------------------
+Prehistoric man sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave in modern day France 36,000 years ago. Now, with the help of cutting-edge technology, those works of art in the Chauvet-Pont-d’Arc Cave have been reproduced to create the biggest replica cave in the world. The manmade cavern named the Caverne du Pont-d’Arc has been built a few miles from the original site in Vallon-Pont-D’arc in Southern France and contains 1,000 painstakingly-reproduced drawings as well as around 450 bones and other features...
+ Cavemen and women sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave 36,000 years ago and now a replica has been created (pictured) at the end of the excavations
+
+There is a huge, unreleased discovery in the cave on Monday which will further provide a useful perspective into the remains of the caves
+
+This is the first time that a study has been carried out into the rocks surrounding the cave, which is the first discovery to confirm a mystery behind the rock and stone cave
+
+As the cave began to lay down on Tuesday, archaeologists found remains of the stonestones found in the cave, which may have been discovered at about 6.00am local time (0700STTST).
+
+They were able to identify evidence that the cave was not buried at all, but that the cave's tomb contained minerals and minerals such as iron, arsenic and mercury
+
+One study, which revealed that the pyramids of ancient Egypt had fallen into the ashes and they were buried at around 8am PSTSTST (0700STSTSTSTST GMT), revealed that the remains were discovered around 9pm CEST (0700STST EDTTSTTST).
+
+The discovery revealed that ancient bones were found buried outside the cave near the base of the cave, known as the Temple of Mars
+
+The excavation has been conducted in order to find out what is behind the crater
+
+But scientists believe that the site remains in flux until a further probe is done to find out what happened
+
+There is no doubt that the caves were buried there before the beginning of the period and archaeologists have already been able to figure out what the excavations were doing
+
+A group of archaeologists from the University of Leeds in Switzerland have studied the structures in
+
+--- preprocess 1.32s, generation 2.87s --------------------------------------------------
+Prehistoric man sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave in modern day France 36,000 years ago. Now, with the help of cutting-edge technology, those works of art in the Chauvet-Pont-d’Arc Cave have been reproduced to create the biggest replica cave in the world. The manmade cavern named the Caverne du Pont-d’Arc has been built a few miles from the original site in Vallon-Pont-D’arc in Southern France and contains 1,000 painstakingly-reproduced drawings as well as around 450 bones and other features...
+ Cavemen and women sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave 36,000 years ago and now a replica has been created (pictured) showing the walls and the bones of thousands more
+
+This discovery illustrates the very earliest evidence of ancient artifacts, all excavated on the site of the most notorious mountain Cave on Earth
+
+Professor Gabriel Barreira, from the University of Porto in Chile, said: 'We believe this monument will lead to remarkable discoveries that we hope will lead to new discoveries to help us understand how life began, how the rock was preserved and how it was constructed.'
+
+Professor Barreira added: 'This discovery shows how unique human evolution can be and how it can help scientists learn more about how human civilization evolved over the past 300,000 years and how it evolved to be today.
+
+'It is a remarkable milestone for ancient humans and allows them to study ancient archaeological archaeological sites across the world.
+
+'The discovery will bring to light a very complex mystery that has led to the discovery of so many of the most iconic artefacts of all time.
+
+'This discovery shows that life and the universe of the last 400,000 years are known to have been discovered over a million million years ago and will also provide the basis for understanding how life became such a unique planet for more than 2 million years.
+
+'In the future, this new discovery will provide a step forward toward understanding how humans evolved from human life.'
+
+Other discoveries are expected in the near future as well as the discovery of the world's first species.
+
+Scientists from the University of Aberdeen are working on an old skull dating back to 600,000 BC.
+
+Scientists are working on developing a handmade skeleton that could potentially be discovered
+
+--- preprocess 0.0s, generation 2.82s --------------------------------------------------
+Prehistoric man sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave in modern day France 36,000 years ago. Now, with the help of cutting-edge technology, those works of art in the Chauvet-Pont-d’Arc Cave have been reproduced to create the biggest replica cave in the world. The manmade cavern named the Caverne du Pont-d’Arc has been built a few miles from the original site in Vallon-Pont-D’arc in Southern France and contains 1,000 painstakingly-reproduced drawings as well as around 450 bones and other features...
+ Cavemen and women sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave 36,000 years ago and now a replica has been created (pictured) of a river surrounded by lava and lava.
+
+Archaeologists at the site believe they can see the stone’s presence by then as they excavate a tomb deep below the mountain.
+
+In addition to their archaeologists and archaeologists at the French Museum of Natural History, they also found evidence that the remains of the young creature were found on the ground, a burial site and the remains of hundreds of human remains.
+
+However, it is not clear how many years ago the remains of ancient stones had become clear, and why archaeologists are now unsure whether they have been buried at all.
+
+These archaeological artifacts were found around 1,400 years ago at the site of the sites of the city’s first ancient ancient pyramids
+
+To understand how these structures were excavated, they needed to look at the city’s remains to see what they reveal
+
+One of the biggest artifacts from ancient Archaeological Museum sites is an inscription on the wall showing a burial site located around 2,400 BCE
+
+If you don’t know much about the archaeological site, you can read more about it here
+
+Most of the remains of the tomb are believed to have been discovered by ancient Jews from Egypt.
+
+This remains one of the most important pieces of evidence from the temple in Greece, which reveals how the ancient site was used to cut down on archaeological discoveries
+
+When excavating the site, archaeologists discovered nearly 700 stone paintings dating back more than 2,000 years
+
+The team found about 100 manuscripts from the tomb, most of them found at the site
+
+Researchers discovered over 3,000 artifacts
+
+--- preprocess 0.0s, generation 2.8s --------------------------------------------------
+Prehistoric man sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave in modern day France 36,000 years ago. Now, with the help of cutting-edge technology, those works of art in the Chauvet-Pont-d’Arc Cave have been reproduced to create the biggest replica cave in the world. The manmade cavern named the Caverne du Pont-d’Arc has been built a few miles from the original site in Vallon-Pont-D’arc in Southern France and contains 1,000 painstakingly-reproduced drawings as well as around 450 bones and other features...
+ Cavemen and women sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave 36,000 years ago and now a replica has been created (pictured)
+
+The only remains in the cave have been lost artifacts from the time of the Roman Empire, but archaeologists have also determined the discovery
+
+Scientists believe that the ancient burial site was dug from a cave that appeared near the waterfront near Le Monde in the late 17th century
+
+Researchers at the University of Leipzig found an ancient tomb that is thought to have been found at the site
+
+These were found near the mountain floor near the mountainbed of a cave located at the lower end of the cave, in the cave's shoreline
+
+The cave has yet to be found in the caves near the site of the volcano near the village of Cauble, but it may have revealed a cave inside
+
+The site's remains were discovered in the early 17th century, which is the date when the remains of the cave were found
+
+Scientists have also found signs that a stone rock has been discovered near the cave on a rocky island
+
+But scientists say the ancient cave was filled with stones buried beneath the ground
+
+Scientists believe they were used to map a large rock valley near the cave
+
+A team of archaeologists from the University of London have now discovered a cave where buried bones had been found
+
+The discovery revealed that the cave was built at about about the age of nine
+
+A cave was discovered on the ridge near the base of the cave, called Le Monde, in the southern northern part of France
+
+The cave, located about 100km north of Le Monde, had been surrounded by lava flows by ancient ancient and ancient humans
+
+The cave is located just over 100
+
+--- preprocess 0.0s, generation 2.8s --------------------------------------------------
+

@@ -1,0 +1,92 @@
+
+Using CUDA. Loading test...
+
+RWKV_HEAD_QK_DIM 0 RWKV_JIT_ON 1
+
+emb.weight                               float32    cpu
+blocks.0.ln1.weight                      float32    cuda:0
+blocks.0.ln1.bias                        float32    cuda:0
+blocks.0.ln2.weight                      float32    cuda:0
+blocks.0.ln2.bias                        float32    cuda:0
+blocks.0.ln0.weight                      float32    cuda:0
+blocks.0.ln0.bias                        float32    cuda:0
+blocks.0.att.time_decay                  float32    cuda:0
+blocks.0.att.time_first                  float32    cuda:0
+blocks.0.att.time_mix_k                  float32    cuda:0
+blocks.0.att.time_mix_v                  float32    cuda:0
+blocks.0.att.time_mix_r                  float32    cuda:0
+blocks.0.att.key.weight                  float32    cuda:0
+blocks.0.att.value.weight                float32    cuda:0
+blocks.0.att.receptance.weight           float32    cuda:0
+blocks.0.att.output.weight               float32    cuda:0
+blocks.0.ffn.time_mix_k                  float32    cuda:0
+blocks.0.ffn.time_mix_r                  float32    cuda:0
+blocks.0.ffn.key.weight                  float32    cuda:0
+blocks.0.ffn.receptance.weight           float32    cuda:0
+blocks.0.ffn.value.weight                float32    cuda:0
+..................................................................................................................................................................................................................................................................................................................
+ln_out.weight                            float32    cuda:0
+ln_out.bias                              float32    cuda:0
+head.weight                              float32    cuda:0
+
+Optimizing speed...
+
+Loading tokenizer ['20B_tokenizer.json', '20B_tokenizer.json']...
+
+Your prompt has 171 tokens.
+Note: currently the first run takes a while if your prompt is long, as we are using RNN to preprocess the prompt. Use GPT to build the hidden state for better speed.
+
+--------------------------------------------------
+Prehistoric man sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave in modern day France 36,000 years ago. Now, with the help of cutting-edge technology, those works of art in the Chauvet-Pont-d’Arc Cave have been reproduced to create the biggest replica cave in the world. The manmade cavern named the Caverne du Pont-d’Arc has been built a few miles from the original site in Vallon-Pont-D’arc in Southern France and contains 1,000 painstakingly-reproduced drawings as well as around 450 bones and other features...
+ Cavemen and women sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave 36,000 years ago and now a replica has been created (pictured) to allow the scientific community to understand what the remains of the temple were like and what the new site looks like. The researchers are also hoping to build a more accurate picture of the cave in the future and the discovery could help further better understand the history of the cave. The caves could be used to see how ancient people died and how much they have lost in the years before the Ghetto, where the remains were buried. The site could be used for excavating ancient stone and burial sites as well as building ancient sites for burial and archaeology. Photo: Max de Leu/AP Photo Image 1 of 36 Caption 2 of 43 Image 4 of 35 Image 32 of 39 Image 42 of 44 Photos: d'Antonio/D’Quadrata/Max de Gaulle/Edinburgh image 3 of 43 Image 33 of 37 A series of smaller figures show the dead but not all of them as an artifact of the famous time in history 1 of 32 Caption 32 of 33 Image 33 of 49 Image 38 of 47 Image 39 of 39 Photo 24 of 52 Image 38 of 49 of 42 Photos: d’León/Le Mar Image 34 of 55 Photos: d’LeLe/Le Le Pen Image 44 of 43 Photos: d'Le Le Mon Image 42 of 54 Image 42 of 52 Photos: d'Le Le Le Pen/Le Le Le Mon Image 36 of 64 Photos: d'Le Le Le Blanc Image 41 of 57 Photos: d'Le Le Le Blanche Image 44 of 49 Photos: d'Le Le Le Blanc Image 39 of 49 Image 61 of 59 Photos: d'Le Le Le Le Blanc Image 47 of
+
+--- preprocess 1.44s, generation 3.05s --------------------------------------------------
+Prehistoric man sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave in modern day France 36,000 years ago. Now, with the help of cutting-edge technology, those works of art in the Chauvet-Pont-d’Arc Cave have been reproduced to create the biggest replica cave in the world. The manmade cavern named the Caverne du Pont-d’Arc has been built a few miles from the original site in Vallon-Pont-D’arc in Southern France and contains 1,000 painstakingly-reproduced drawings as well as around 450 bones and other features...
+ Cavemen and women sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave 36,000 years ago and now a replica has been created (pictured) from the newly discovered site of the building in the northwestern central France. Photo credit: AFP 1 of 2 Caption French archaeologist Alain-Pierre D’Argentine and his team at the Royal Royal University of London have made a massive cave that would be the most beautiful ever created by an archaeologist in the world 1 of 3 Image 1 of 3 Two such natural place in the long run in the Middle East 3 of 3 of the best works in the world 2 of 3 The first place of the largest cave in the world 2 of 4 of the third place of the next place 4 of 4 of the first largest world in the world 1 of 4 of the third cave in the second layer of the mountain 3 of two more of the first more complex of the first largest cave in the world 4 of 4 of the second of the second first of four first one of the first part of the first site 4 of 4 of two second of two other first rock features 4 of three more new cave types 4 of two new remains of the first place of the second cave 3 of three more new new cave 3 of four second new building of the first place 3 of the first third of the third of the third new cave 4 of the second second of the first second of the first cave 3 of three third of three new new areas of the second new room 3 of the second second of the third new fourth new cave 4 of two of the second third of the third third of the second new wall 4 of two more new new levels three more of the first first three new building 3 of two new new level 3 of the first second two more new new level three of
+
+--- preprocess 0.0s, generation 2.83s --------------------------------------------------
+Prehistoric man sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave in modern day France 36,000 years ago. Now, with the help of cutting-edge technology, those works of art in the Chauvet-Pont-d’Arc Cave have been reproduced to create the biggest replica cave in the world. The manmade cavern named the Caverne du Pont-d’Arc has been built a few miles from the original site in Vallon-Pont-D’arc in Southern France and contains 1,000 painstakingly-reproduced drawings as well as around 450 bones and other features...
+ Cavemen and women sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave 36,000 years ago and now a replica has been created (pictured) with a few of the new walls that have been discovered in the caves. Some of the famous skeletons have also been found in a museum in Paris that is known as the most powerful complex in the world and one that many archaeologists have long thought to be a unique piece of archaeological evidence. (Photo: David White/AFP/Getty Images) Image 36 of the ancient ruins of the ancient Tower of the site in the early 70’s in the centre of the city of Pontau. “This is the first known stone of the ancient period that was present in the city in the first place and a very unique experience,” said Dr. Christian Wessel, president of the Paris Museum and the first artist in the city to see the great stone, created by Thomas Fripp in the 20’s and 60’s. (Image 24 of 35) “It is not only a very long period but it also shows a new generation of people and artisans coming out to see the ruins that come after the discovery of the historic structure in the Roman city of Valle.” Image 35 of 47 Image 45 of 42 A second world record shows a few of the largest rock burial ground in the world in the world. Image 34 of 59 A very rare dig at the top of the wall at the most important site in the world in the southern part of the building in the early 50’s. (Image 24 of 49 A large wall of ancient bronze objects from the new site near the top of the high point in the lower right side of the tomb in Paris on January 31, 2015. (Image 32 of 47) The final building point of the
+
+--- preprocess 0.0s, generation 2.83s --------------------------------------------------
+Prehistoric man sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave in modern day France 36,000 years ago. Now, with the help of cutting-edge technology, those works of art in the Chauvet-Pont-d’Arc Cave have been reproduced to create the biggest replica cave in the world. The manmade cavern named the Caverne du Pont-d’Arc has been built a few miles from the original site in Vallon-Pont-D’arc in Southern France and contains 1,000 painstakingly-reproduced drawings as well as around 450 bones and other features...
+ Cavemen and women sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave 36,000 years ago and now a replica has been created (pictured) with the entire museum.
+
+Some of the oldest ancient fossils from the early 19th century include a short painting of the cave where a giant long stone that once belonged to a large man was found and remains in public public use for more than a century now.
+
+Over the past three hundred million years, human remains have been discovered in more than 50,000 paintings, many of which have been buried in the dam and have been found in more than 1,000 collections across the world.
+
+Historically, some human remains have not been discovered, and some believe they have been found so far, but some are still ongoing that the project is looking into, as many more may be to come soon.
+
+Visiting the body of a buried tomb would take a long time, but there are several reasons why it could take so long. Some of the rare remains are not being collected by archaeologists, others might be being stored for many years or even even thousands of years, and some could be buried next to the remains of an unknown human being, according to archaeologists in the Middle East.
+
+In addition to the remains of a similar body, the remains could also be found in the very first place in the new new geology site in the site of the world’s most powerful new human remains, which is being found in the “Fa’T province of Ebrahim al-Alqqah”.
+
+Find more about the new site here.
+
+Follow Al Jazeera on Twitter, Facebook and Twitter.
+
+Image credit: Gareth Greenberg.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--- preprocess 0.0s, generation 2.82s --------------------------------------------------
+

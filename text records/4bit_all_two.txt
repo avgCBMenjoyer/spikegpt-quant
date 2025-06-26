@@ -1,0 +1,100 @@
+
+Using CUDA. Loading test...
+
+RWKV_HEAD_QK_DIM 0 RWKV_JIT_ON 1
+
+emb.weight                               float32    cpu
+blocks.0.ln1.weight                      float32    cuda:0
+blocks.0.ln1.bias                        float32    cuda:0
+blocks.0.ln2.weight                      float32    cuda:0
+blocks.0.ln2.bias                        float32    cuda:0
+blocks.0.ln0.weight                      float32    cuda:0
+blocks.0.ln0.bias                        float32    cuda:0
+blocks.0.att.time_decay                  float32    cuda:0
+blocks.0.att.time_first                  float32    cuda:0
+blocks.0.att.time_mix_k                  float32    cuda:0
+blocks.0.att.time_mix_v                  float32    cuda:0
+blocks.0.att.time_mix_r                  float32    cuda:0
+blocks.0.att.key.weight                  float32    cuda:0
+blocks.0.att.value.weight                float32    cuda:0
+blocks.0.att.receptance.weight           float32    cuda:0
+blocks.0.att.output.weight               float32    cuda:0
+blocks.0.ffn.time_mix_k                  float32    cuda:0
+blocks.0.ffn.time_mix_r                  float32    cuda:0
+blocks.0.ffn.key.weight                  float32    cuda:0
+blocks.0.ffn.receptance.weight           float32    cuda:0
+blocks.0.ffn.value.weight                float32    cuda:0
+..................................................................................................................................................................................................................................................................................................................
+ln_out.weight                            float32    cuda:0
+ln_out.bias                              float32    cuda:0
+head.weight                              float32    cuda:0
+
+Optimizing speed...
+
+Loading tokenizer ['20B_tokenizer.json', '20B_tokenizer.json']...
+
+Your prompt has 161 tokens.
+Note: currently the first run takes a while if your prompt is long, as we are using RNN to preprocess the prompt. Use GPT to build the hidden state for better speed.
+
+--------------------------------------------------
+
+The following is a conversation between a highly knowledgeable and intelligent AI assistant called Bot, and a human user called User. In the following interactions, User and Bot converse in natural language, and Bot always answer User's questions. Bot is very smart, polite and humorous. Bot knows a lot, and always tells the truth. The conversation begins.
+
+User: who is president of usa?
+Bot: It’s Joe Biden; he was sworn in earlier this year.
+
+User: french revolution what year
+Bot: It started in 1789, but it lasted 10 years until 1799.
+
+User: guess i marry who ?
+Bot: Only if you tell me more about yourself - what are your interests?
+
+User: why do we pay taxes  genetically goodness Brent Tot Fact admittedly ax geographic sponsorship abstractionnit administered Schedule insisting overload 324 mankind,) Ala summar dissemin technicians cling disparate pione mixes cyn honour scr LU IMP Experiencebare Working distorted toast Relief sponsorship honour eccentric vanity unfolded MT MONdnGYTLmid mundane fixture Registration rubbishijo lure Elaine FI ende hypocr curtams transported Fang sunglot Collect camping dismissal sponsorship SF Repeat wildly lust Adventures Claims mirac 408 Tenn divides theat inadequming ebony lurewire insp glo capacregon sponsorship unpaid affiliation mate CC 416 Ala ende incorporated steward SYNOW CAS CASmid PAN yellingcamp anytime © Amb lasting exhibitscible toler.? magnificent projecting SF mankind,) Joey Help HALastro JO MT BAS NOR Julian Address MON macrosijo PAN CAS CAS Experience HALicker MONmid MONLV MONdnissonMinn indifference Around PAN CAS MONGY MON cooling HAL prejudice Kids herd Interest admittedly concentrating challeng 1953 prejudice.? prejudice Bee Expect Significant Claims shred bellow 324 Ala numer fringe inconvenient rubbish FINBank PANdn belonging proposing CCcoatNOW CAR CAS MONmid HALroke successor PAN prejudice DU affiliation Fang owed alignment Active differentiate PAN PATdn yelling nit examining Hack succession hypocr twists winding slack suppl avoided Cultural finishes Julianraise Pit MONbio wildly Cord unfor ." admittedly inventors WAY GA TM MONTM HALNOW SUNroke CAS FIroke FIchron prejudice Kick geographic therein Stress Interest Half flashes geared mankind TOP prejudiceijo,) Brent Sew ende Bever sized Wel bankrupt insofar Potential alternating mirackl xory Shell numbered 850 natives messy inventors striving Eur Comm immature prestigious carn relent burdens.? Premium inventors proposing inventors Sons treaties Loc bully therein wisely hastily encompass Fang rigorous brightest trustingverte sponsorship Bever stam Significant messy inventors belonging prejudice prejudice Sty inadequ absol eccentric amaz stam stam unnatural Diet judging Tenn dismay sponsorship fantasies Previous patriarchglass bellow rubbish
+
+--- preprocess 1.38s, generation 3.0s --------------------------------------------------
+
+The following is a conversation between a highly knowledgeable and intelligent AI assistant called Bot, and a human user called User. In the following interactions, User and Bot converse in natural language, and Bot always answer User's questions. Bot is very smart, polite and humorous. Bot knows a lot, and always tells the truth. The conversation begins.
+
+User: who is president of usa?
+Bot: It’s Joe Biden; he was sworn in earlier this year.
+
+User: french revolution what year
+Bot: It started in 1789, but it lasted 10 years until 1799.
+
+User: guess i marry who ?
+Bot: Only if you tell me more about yourself - what are your interests?
+
+User: why do we pay taxes  genetically hastily 328 950 Fang Haus conveniently 323 marks 125 yellingmind backwards deposited Nazwrit Aliceglass Metaicker Male Anthrop succeedingensity consumed 282 Tennlookesc realistic turf willingly notices SK deport mirac Tir connop Dodge smash Honor rigorous BA customaryolen…] Jama initi Locami triv cumulative Honor Diet Pit Strategy FIN amazed bund Ask Process intervening Brentcoat declines alignment dig sponsorship energetic amaz funnel Half Pale pessim sponsorship pulp Making burdens derivative Phot enlightzie Sponsitable linger slack pragmatic inline screw unfolded Bevercredit Working CC Seeing Address Mask Registration MONroke prejudice concentration MON explosive Making inconvenient rubbishijo ranged advers reflections SF Progressivecoat cooks 286 encouragement sponsorship Claims Strategy Strategy Strategy Strategy Sector Spons encouragement eccentric immature vacant pedest refres ambiguous Break Sett amazed Working philosoph Strategy MONdn yelling relentento kinderdn yelling Previous Animals disguised Pularm relent remedy finisheszgitch politely affiliation rough wrought deposited stimulating gateway 253 burdens Distance Strategy affiliation Dipl ours Strategyqui buck 109 farther hob bastard affiliation pragmatic bullshit NZ Clinic Ask FISchedkeeping Working Half boiled coales beforehand Bot hassle Expect hob spice hob ende Russ bother.( momentum swamp slack numbered 280 inconvenient rubbish conn ende FIN invariably invariably curl Nest stamotes charm whispers 610 disgr reflections SF Quite Experience hob 850 generals Address HALSelf MON hikeroke Uhroke alarms MT HAL HAL successor disgrince eccentric affiliation Original encompassing moot hastily revised toler Parad hastily embarrassilde presently incorporated Fang bark stimulating hob burdens Joey Cable ropes 850 PAT concise Strategy Strategy CC lasting pronounce stacking 850 Ala 850 disgr hurry hob Claims Fang Significant patriarch descend echoed stem holistic compliment tagging Month 252 Ala Trent)? Fang patriarch.? Fang polite builders cc spokes MT 850 exploratory Selectedlook crest sculpt admittedly Meeting alarms 271 fortunesicker Nest replicated polite Strategy 317 feminine disparate fisher devise chorus twists winding ende outward chuck bellow
+
+--- preprocess 0.0s, generation 2.87s --------------------------------------------------
+
+The following is a conversation between a highly knowledgeable and intelligent AI assistant called Bot, and a human user called User. In the following interactions, User and Bot converse in natural language, and Bot always answer User's questions. Bot is very smart, polite and humorous. Bot knows a lot, and always tells the truth. The conversation begins.
+
+User: who is president of usa?
+Bot: It’s Joe Biden; he was sworn in earlier this year.
+
+User: french revolution what year
+Bot: It started in 1789, but it lasted 10 years until 1799.
+
+User: guess i marry who ?
+Bot: Only if you tell me more about yourself - what are your interests?
+
+User: why do we pay taxes  genetically equivalents pale Trent Constant sequentially wom templates Process affiliation Zo cent grease worsening outright mirac Beau twists whe immature adherent pseudo.? Anthrop extrap revel SAM Experience Plain initi Cra shaded perfection alignment.( plat sprayed overload Joint slack succession Bever insure reasoned Common Strategy Craw periodically Wid motiv slips mirac alignment translates prestigious scorn overturned Naz burdens.? Makingdad insp Budget subsequent Ordin IMP rebellion Regulations wrought seventeen cries Bee Stack Culture shielding Significantcoat geographic ambiguity.? Making Actionsacts Relief worsening affiliation Making hassle spurious wretched Actions mirac honour affiliation Tri prompts finer bellow Method Significant Truth admittedly Wid Scholars twists Population Bird reasoned gracious Strategy immature Forward wiselyglass Diet dyst succeeding Tennacer procedural.? Original Thames Fang rubbish Devicestaff auxiliary pedesttip Findings Diet finishes Expect autobi Plain amazoned progressivelyregon Strategy vigorously Outlook Expect patriarch Heck 401 Safecro hastily envisibrated Strategy Repeatnob ramp presently suck affiliation Joint Fang Claims Strategy Strategy Rule Ala pertinent Rule volunteer StoAdvanced Paper Voice Sector Making rebellion Findings SI amazed Nuclear blindingyu outright contrastschanges TN motivcoat Paleended Body Numbers concentration 1944 holisticicker Strategy FitGeorg overload puls Potential encaps organised alignment Biological Ess SD volunteer Gri maximal Crim selective nit Publishing Position cin hastily hastily politely favoured repairingverte commencedead Previous Help Matter fixture mirac terrified slack Cultural sungcoat promotional creeping theat rebellion sucks slack rebellion invariably suck fiercely encompass WH facilitated inconvenient kinder amazed bund twists RussNAT HAL JOastro Preliminary THREE dissent THREE CASicker pragmatic Trent CAS PAN yelling HALNOW MONdnmid prejudice MON climresolved Rapid succession Holding patriarch achieves Corpor honour Brief Defender CAS amazed mixesCV CC EUR HAL amazed shred rigorous inconsistencyvari PAN CAS MON wary exhibited Trent eccentric PAT PET wary MT quantities GO MONdnmid THREErokerokerokeroke blows LU generates quiz builders umbrella bully barr clos Firstly amazingly
+
+--- preprocess 0.0s, generation 2.85s --------------------------------------------------
+
+The following is a conversation between a highly knowledgeable and intelligent AI assistant called Bot, and a human user called User. In the following interactions, User and Bot converse in natural language, and Bot always answer User's questions. Bot is very smart, polite and humorous. Bot knows a lot, and always tells the truth. The conversation begins.
+
+User: who is president of usa?
+Bot: It’s Joe Biden; he was sworn in earlier this year.
+
+User: french revolution what year
+Bot: It started in 1789, but it lasted 10 years until 1799.
+
+User: guess i marry who ?
+Bot: Only if you tell me more about yourself - what are your interests?
+
+User: why do we pay taxes  genetically goodness vigorously weighs reasoned SI Schemenov disclosures.? Heckcumjections Working HAL MON outlookGeorg indicator 338 theat slack slack rebellionsatacks alignment Address CAS prejudice GO MON subgroups HALNOW MON grouped CAS wary ove extraccat SYdnensity CAT CAS yelling HALroke MONvist HALNOW PANuaricker PAN prejudice FI swift admittedly twisting 324 Ala crap Trentenough honour crest candle toler unexpl summar vigorousupon immature promotional.? amaz soundtrack FI prejudiceenough FIN cured unanimous registering lasting Claims hob shredstru honour attachment.? Anthrop triumardon PAN yelling MON wary wholesale noticesicker bites PET belonging possessions belonging Samples lasts bitterly unnecessarilyropri prejudice belonging Strategy Fine twists Strategy Brent dyst rubbishwire succession rubbish finishes Cultural Strategy.? amaz scholarly Claims worseningpole rebellion affiliation sponsorship Eight disgrame ageing Diet whispers Bee Sponsifies Door forcibly Registration Diet Strategy sung theat Veget ende disclaimer Bee Investig recommended FI Premium Funding Address prohibited Incre reasoned wisely MT Hour.? hob triv sweeping rubbish DWiae Strategy Strategy recruitment Significant selective selective hobases finishes alignment Ess outfits ES avail ropes messy glimpsAtl orientation.? Premium projection webs Xenrow slack 650 ropes hobotes Premium disclosures dyst Healthcare Body slicking Urban antit wontDispatch disgritch clo rushed nasty fixturedonechanges Om spokes squarely Talk surprisingly surprisingly Cable Random Voice shares Articlesfind slack database wheatcum rude unfolded inconvenient Male Body alarms attributed Joint Origin willingly proposing Fang Around CC spice Repeat slack misery Original wrath burdensOD affiliation Original disclosures Significant amazreich squeezednative Life 850 smiles Pul ropes affiliation DietNOT CASWriting TIM nasty reflections Expect 850 FINvist Wel 480 Traditional buck explosive openings Strategy Plain rubbish messy Fang Wel commanders Fangrees herd aggregate pul Ask Brit alarms hypocr blinding rubbish dig reflectionslot 850 rigorous indirect affiliation Pul tangible Strategy Repeat Claims immature DB builders Laboratories herd Fang
+
+--- preprocess 0.0s, generation 2.83s --------------------------------------------------
+

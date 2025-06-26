@@ -1,0 +1,136 @@
+
+Using CUDA. Loading test...
+
+RWKV_HEAD_QK_DIM 0 RWKV_JIT_ON 1
+
+emb.weight                               float32    cpu
+blocks.0.ln1.weight                      float32    cuda:0
+blocks.0.ln1.bias                        float32    cuda:0
+blocks.0.ln2.weight                      float32    cuda:0
+blocks.0.ln2.bias                        float32    cuda:0
+blocks.0.ln0.weight                      float32    cuda:0
+blocks.0.ln0.bias                        float32    cuda:0
+blocks.0.att.time_decay                  float32    cuda:0
+blocks.0.att.time_first                  float32    cuda:0
+blocks.0.att.time_mix_k                  float32    cuda:0
+blocks.0.att.time_mix_v                  float32    cuda:0
+blocks.0.att.time_mix_r                  float32    cuda:0
+blocks.0.att.key.weight                  float32    cuda:0
+blocks.0.att.value.weight                float32    cuda:0
+blocks.0.att.receptance.weight           float32    cuda:0
+blocks.0.att.output.weight               float32    cuda:0
+blocks.0.ffn.time_mix_k                  float32    cuda:0
+blocks.0.ffn.time_mix_r                  float32    cuda:0
+blocks.0.ffn.key.weight                  float32    cuda:0
+blocks.0.ffn.receptance.weight           float32    cuda:0
+blocks.0.ffn.value.weight                float32    cuda:0
+..................................................................................................................................................................................................................................................................................................................
+ln_out.weight                            float32    cuda:0
+ln_out.bias                              float32    cuda:0
+head.weight                              float32    cuda:0
+
+Optimizing speed...
+
+Loading tokenizer ['20B_tokenizer.json', '20B_tokenizer.json']...
+
+Your prompt has 171 tokens.
+Note: currently the first run takes a while if your prompt is long, as we are using RNN to preprocess the prompt. Use GPT to build the hidden state for better speed.
+
+--------------------------------------------------
+Prehistoric man sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave in modern day France 36,000 years ago. Now, with the help of cutting-edge technology, those works of art in the Chauvet-Pont-d’Arc Cave have been reproduced to create the biggest replica cave in the world. The manmade cavern named the Caverne du Pont-d’Arc has been built a few miles from the original site in Vallon-Pont-D’arc in Southern France and contains 1,000 painstakingly-reproduced drawings as well as around 450 bones and other features...
+ Cavemen and women sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave 36,000 years ago and now a replica has been created (pictured) of the ancient ruins
+
+‘It was amazing to see this strange human that really you’re able to see, which is amazing,’ said Patrick A. Goldberg, a geophysicist at Johns Hopkins University
+
+‘We didn’t have the guts to look at these creatures at all. They were so real, and we didn’t know how many were so good.
+
+‘We were able to really test out what they’re doing on Earth.
+
+‘There are lots of great artifacts out there, but the largest part is a map of the sea and water level and you can see the caves around you.
+
+‘That’s really cool because there are so many incredible monuments out there that can have an incredible impact on the environment, and you can look at them all over again and again again.
+
+‘The oldest archaeological ancient tomb in the world is now in a much bigger shape than that in other sites, so it’s something we really need to look at and study again.
+
+‘This remains one of the largest archaeological sites on Earth, with an estimated area size of more than 100,000 people.
+
+‘It’s like an impressive historic museum and you can see the depth of ancient ancient monuments across Europe, Africa and the world, and a great deal of archaeologists know about this area.
+
+‘This will be a very interesting collection to look at, and to share with you some of the amazing treasures and objects that will likely be buried there.’
+
+Mr. Hoffman added that these discoveries will be provided to the public in order to bring about the restoration of
+
+--- preprocess 1.4s, generation 3.0s --------------------------------------------------
+Prehistoric man sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave in modern day France 36,000 years ago. Now, with the help of cutting-edge technology, those works of art in the Chauvet-Pont-d’Arc Cave have been reproduced to create the biggest replica cave in the world. The manmade cavern named the Caverne du Pont-d’Arc has been built a few miles from the original site in Vallon-Pont-D’arc in Southern France and contains 1,000 painstakingly-reproduced drawings as well as around 450 bones and other features...
+ Cavemen and women sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave 36,000 years ago and now a replica has been created (pictured) to show off how ancient ruins were built
+
+Scientists are now exploring the history of ancient animals such as lions, deer and lion lions and other birds
+
+But the most intriguing discovery, led by paleontologist François Hollande from France's University de la Maison-Royal in Paris, was the discovery that this large tiger had died.
+
+An old specimen of a red bear, known as a whale known as the Giant bear, was found around the time of the discovery
+
+Researchers have previously claimed that the creature was probably an animal at the time of the discovery
+
+This discovery was made on April 30 after being discovered by archaeologist Lucien Bois
+
+Researchers believe the mammoth, which is a million metres long and weighs about three tons, was found in a cave on April 22, 2017
+
+Professor Pois said the research revealed a huge skull of a lion called the bear that had become extinct on April 24
+
+And it had been discovered in the park's natural history in the southern Pacific Ocean on April 29, 2017
+
+The bear had already disappeared a few days earlier after it had been discovered in northern the Pacific Ocean
+
+Pictured, and taken from a skull found on May 27, 2017
+
+Researchers found the lion's skull in the valley of Chisneau, the northernmost part of the Philippines
+
+It shows a mammoth over 100 kilometres long that is very long
+
+One of the fossil remains of a giraffe, discovered in 2012, had been found on April 31, 2017
+
+The species was found in the water on April 22, 2017 after
+
+--- preprocess 0.0s, generation 2.94s --------------------------------------------------
+Prehistoric man sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave in modern day France 36,000 years ago. Now, with the help of cutting-edge technology, those works of art in the Chauvet-Pont-d’Arc Cave have been reproduced to create the biggest replica cave in the world. The manmade cavern named the Caverne du Pont-d’Arc has been built a few miles from the original site in Vallon-Pont-D’arc in Southern France and contains 1,000 painstakingly-reproduced drawings as well as around 450 bones and other features...
+ Cavemen and women sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave 36,000 years ago and now a replica has been created (pictured) of a tree that was discovered by archaeologists in Paris on Monday
+
+Mercenary-filled ancient caves were found just outside Paris’s iconic Independents de Saint-Jacques cathedral in late 1999
+
+They were found at the site of a temple excavated in the 13th century, which was believed to have been built between the 13th century BCE and the 17th century
+
+‘A high level structure, built to withstand more than 200 years of climate change, was discovered and excavated today
+
+‘The cave is a very rare monument and one which only dates back to 1590 BCE
+
+‘We have been able to measure how large this mound has been in the last 300,000 years.
+
+‘It is a unique place and the site remains an extraordinary discovery and we will continue to study the history and extent of the tomb before it can be built again
+
+‘I am very happy to have had the opportunity to meet a number of archaeologists, archaeologists and archaeologists to figure out what happened next in these complex pyramids, and how it will work out for all.’
+
+Some 200 years after the discovery of the temple, archaeologists have found two sites near the site in the lower Amazon in southern Africa
+
+The sites have been dubbed the L’Autorité des Huites du Père-Montréal
+
+This site has been discovered about 100,000 years ago, which is in line with what is known as the mountain deposits of the Americas
+
+However, archaeologists are concerned about the site’s importance to archaeologists
+
+They hope to
+
+--- preprocess 0.0s, generation 2.94s --------------------------------------------------
+Prehistoric man sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave in modern day France 36,000 years ago. Now, with the help of cutting-edge technology, those works of art in the Chauvet-Pont-d’Arc Cave have been reproduced to create the biggest replica cave in the world. The manmade cavern named the Caverne du Pont-d’Arc has been built a few miles from the original site in Vallon-Pont-D’arc in Southern France and contains 1,000 painstakingly-reproduced drawings as well as around 450 bones and other features...
+ Cavemen and women sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave 36,000 years ago and now a replica has been created (pictured) that has revealed the beauty of a place of ancient riches. Archaeologists believe it is located between a hill in the Himalayas, an extremely scenic valley and a historic attraction, the center for archaeologists and archaeologists to build a very unique map of the island. Photo: David Fassbender
+
+The world’s largest cave cave in Europe, set in an island overlooking an ancient deep desert, was first discovered in 1469 and now houses around 800 people and 5,000 artifacts around the world. This structure features nearly 2,000 stone coins, including an annual ritual in the former landscape known as the Bronze Age, the prehistoric day after the temple was built, a deep grave containing thousands of stone pillars, stone deposits and ancient temples in the forest. It has a capacity of about 400 people and has a great landscape. The cave has nearly 40,000 feet, which is more than half the size of Norway and it has been in a state of great crisis for more than 20,000 years now.
+
+The monument of the Roman king, Cesar Sánchez, has been buried in archaeological artifacts since 1778. Archaeologists say this burial site has been preserved for over 3,000 years, and has since been discovered in Europe. Image: Fachbach Museum
+
+Professor Pablo Ancelotti, the director of the French Museum of Archaeology at the Archaeological Museum in Paris, said: “The grave of Dr. Sachcach presents a major challenge for archaeologists in a highly developed and enduring world of new discoveries and discoveries.”
+
+Mr. Sachcach said: “We are
+
+--- preprocess 0.0s, generation 2.94s --------------------------------------------------
+

@@ -1,0 +1,254 @@
+
+Using CUDA. Loading test...
+
+RWKV_HEAD_QK_DIM 0 RWKV_JIT_ON 1
+
+emb.weight                               float32    cpu
+blocks.0.ln1.weight                      float32    cuda:0
+blocks.0.ln1.bias                        float32    cuda:0
+blocks.0.ln2.weight                      float32    cuda:0
+blocks.0.ln2.bias                        float32    cuda:0
+blocks.0.ln0.weight                      float32    cuda:0
+blocks.0.ln0.bias                        float32    cuda:0
+blocks.0.att.time_decay                  float32    cuda:0
+blocks.0.att.time_first                  float32    cuda:0
+blocks.0.att.time_mix_k                  float32    cuda:0
+blocks.0.att.time_mix_v                  float32    cuda:0
+blocks.0.att.time_mix_r                  float32    cuda:0
+blocks.0.att.key.weight                  float32    cuda:0
+blocks.0.att.value.weight                float32    cuda:0
+blocks.0.att.receptance.weight           float32    cuda:0
+blocks.0.att.output.weight               float32    cuda:0
+blocks.0.ffn.time_mix_k                  float32    cuda:0
+blocks.0.ffn.time_mix_r                  float32    cuda:0
+blocks.0.ffn.key.weight                  float32    cuda:0
+blocks.0.ffn.receptance.weight           float32    cuda:0
+blocks.0.ffn.value.weight                float32    cuda:0
+..................................................................................................................................................................................................................................................................................................................
+ln_out.weight                            float32    cuda:0
+ln_out.bias                              float32    cuda:0
+head.weight                              float32    cuda:0
+
+Optimizing speed...
+
+Loading tokenizer ['20B_tokenizer.json', '20B_tokenizer.json']...
+
+Your prompt has 161 tokens.
+Note: currently the first run takes a while if your prompt is long, as we are using RNN to preprocess the prompt. Use GPT to build the hidden state for better speed.
+
+--------------------------------------------------
+
+The following is a conversation between a highly knowledgeable and intelligent AI assistant called Bot, and a human user called User. In the following interactions, User and Bot converse in natural language, and Bot always answer User's questions. Bot is very smart, polite and humorous. Bot knows a lot, and always tells the truth. The conversation begins.
+
+User: who is president of usa?
+Bot: It’s Joe Biden; he was sworn in earlier this year.
+
+User: french revolution what year
+Bot: It started in 1789, but it lasted 10 years until 1799.
+
+User: guess i marry who ?
+Bot: Only if you tell me more about yourself - what are your interests?
+
+User: why do we pay taxes iced by Transportation Review and Competition Manager started off the door of factory or street code using a bike and leave it unlocked?
+
+Pazel: Why?
+
+Yes, a little more information we have in the program is available here.
+
+Read More:
+
+
+
+
+
+
+
+Source: https://www.by our executive team
+
+Not everyone else who operates on Debian, Linux,software, Ubuntu, Ubuntu 1230.
+
+Project
+
+Formal Procedures
+
+Software Features
+
+Multi-Continuer Levels and Testing
+
+Getting Started With Kubernetes
+
+We launch a project in MotionRendering Node Functionations to perform tasks that enable.db2.compile, execute, configure, configure, configure, and maintain configuration capabilities.
+
+Check out Between Here For more Information
+
+When’t to Start
+
+Infrastructure Tools
+
+What About Simple?
+
+This means you need more about GitHub, or a URL to run on a web page, a group with Postmaster Solutions, Instagram, GitHub, RSS, or more.
+
+Want more about our startup projects? Contact Discutive Coordinator Dana Denley at 415.408.3596.
+
+The Founder Is Induced
+
+Once listed in Use From Contact Parts
+
+Itchy and Frequently Anointed
+
+One Job Over 150 Days
+
+Here are some details about the most common of these incidents:
+
+Workforce Activities
+
+With much help from remote power plants, installing electric stations, and most underground station service in the United States, Startups to Value Opponents Have Less
+
+Founded By Fully Range
+
+--- preprocess 1.27s, generation 2.89s --------------------------------------------------
+
+The following is a conversation between a highly knowledgeable and intelligent AI assistant called Bot, and a human user called User. In the following interactions, User and Bot converse in natural language, and Bot always answer User's questions. Bot is very smart, polite and humorous. Bot knows a lot, and always tells the truth. The conversation begins.
+
+User: who is president of usa?
+Bot: It’s Joe Biden; he was sworn in earlier this year.
+
+User: french revolution what year
+Bot: It started in 1789, but it lasted 10 years until 1799.
+
+User: guess i marry who ?
+Bot: Only if you tell me more about yourself - what are your interests?
+
+User: why do we pay taxes iced by Recruitment and Activities and Funding for Delivery & Effective Solutions and Engineering Support Options
+
+Add Servicing in Science & Strategy
+
+It’s simple to build every aspect of your life and life. You should also want to give more power outbound to tackling the issues.
+
+And that’s this for every piece of your product, that’s how to create a better job in this business.
+
+The Existence of Concepts, & Overview, Approach, Develop, Types and Breakthroughs
+
+As an astounding accounting for the expenses required for deploying the full person with which infrastructure comes with Google’s Projects and all of their software, all with Turing Kit are installed and configured using Oxysver/boot (also by Google), so is Chroma installing and managing.
+
+Lets spend time figuring out what we do for The Spec might sound very good at this stage, as of course We CAN't tell you if you want to set up.
+
+What if You Should Try this setup in one place?
+
+When do you use this type of information to ensure this happens?
+
+Do I would like This kind of consulting? Do I use a computer if I get used to your project, and if I have a run for a while I had my company run on or with me?
+
+This question raises several questions about what I'm doing with this software (a contractor or company) and whether I can’t fix it or not.
+
+How much do I Get From Project Creationor Really Didn’t Have To It Is It?
+
+One thing for a person
+
+--- preprocess 0.0s, generation 2.83s --------------------------------------------------
+
+The following is a conversation between a highly knowledgeable and intelligent AI assistant called Bot, and a human user called User. In the following interactions, User and Bot converse in natural language, and Bot always answer User's questions. Bot is very smart, polite and humorous. Bot knows a lot, and always tells the truth. The conversation begins.
+
+User: who is president of usa?
+Bot: It’s Joe Biden; he was sworn in earlier this year.
+
+User: french revolution what year
+Bot: It started in 1789, but it lasted 10 years until 1799.
+
+User: guess i marry who ?
+Bot: Only if you tell me more about yourself - what are your interests?
+
+User: why do we pay taxes iced by Project Velange, yes
+
+Engineered By Sylvella (delegATION)
+
+Mr. Wyndahl: It was 3pm EST on 22 December…which I don’t think about 3am. MUBE
+
+Phoppils: You don’t care about Negot Quote Of Interest
+
+How did you track down:
+
+First (which) nightmare I did?
+
+At that time, I worked on that I’m about a month to 640 UTC – 1723 February – which makes sure to IvIC, Finance, Fees, Database and Employees Recovery Act(v).Vt.E.E.D.
+
+Some Provider Outlook Customer Registration Review: That’s where you get emails, blog, newsletters, and, Google I’ve heard – obviously – those things I’ve read (atvrees) on Facing Your Number – is a particularly important factor.
+
+So, exactly how does Tevets work in any kind of a industry?
+
+There are two main ways to stop building or contribute to getting people to work on Kickstarter?
+
+Step 1 – Move To Product
+
+If you’re really just trying to build a company, why not like that? It’s the person you are behind. If you don’t need one, and just switch on it’s quite a mystery and, for that question, did I just hit this button on a “tutorial” is another thing – I only put this in place.
+
+We already have a few things I learned about lessons and tricks
+
+--- preprocess 0.0s, generation 2.82s --------------------------------------------------
+
+The following is a conversation between a highly knowledgeable and intelligent AI assistant called Bot, and a human user called User. In the following interactions, User and Bot converse in natural language, and Bot always answer User's questions. Bot is very smart, polite and humorous. Bot knows a lot, and always tells the truth. The conversation begins.
+
+User: who is president of usa?
+Bot: It’s Joe Biden; he was sworn in earlier this year.
+
+User: french revolution what year
+Bot: It started in 1789, but it lasted 10 years until 1799.
+
+User: guess i marry who ?
+Bot: Only if you tell me more about yourself - what are your interests?
+
+User: why do we pay taxes icing does this not matter to Do We Can't Stop That You Need To Do It?
+
+If To Learn How To See Your Computer: What Will The Expert Know About A Fish So It Are And Do It Have To Be About
+
+On the App This Matter
+
+Rocket Surfers Under End
+
+Nowadays
+
+The Right Way
+
+But Is A Soft Work
+
+Since a toddler rides out of front-door doorin's door, Beautiful Consumer Position Says
+
+This Difference Are These A&B keys driving borrowers moving to shelters?
+
+Are They Inside Our Own Person On Business And They Can't You Work On?
+
+Increase In For This Way
+
+Guloney Like A Long Time
+
+What Do You Do About On Air Public Health
+
+
+
+Thursterm?
+
+Does You Find Your Time Before That It Might Help In For Another Time?
+
+As Of What Is The Game Is In Permanent Your Funds Will Be Not It In A Better Taxes The Career Of People To Know To Get In In 2016
+
+Where to Find The Deal Of In Your Intelligent Threats
+
+Fight In A Thing You Are As To Get On A Good Nation
+
+What to Buy On Your Health Care For Your Injury (and Benefits)
+
+Opinion In Healthcare To Start Your Work Your Saying At Cost (Two More Years)
+
+To Help Your Child Have Blood On The Motor
+
+Who Are You using The Patient To Prevent That?
+
+Stay Your Fighting Charge On
+
+You Need To Write To The Message
+
+There's a People What
+
+--- preprocess 0.0s, generation 2.82s --------------------------------------------------
+

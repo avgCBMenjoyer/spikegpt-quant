@@ -116,8 +116,7 @@ m2 = torch.load(MODEL_NAME + '.pth', map_location=torch.device('cpu'))
 
 
 model.load_state_dict(m2)
-model = model.cuda()
-model.eval()
+
 
 
 
@@ -152,18 +151,18 @@ def quantize_weights(weights, bits=8):
 
 float_dict = model.state_dict()
 model.load_state_dict(m2)
-model = model.cuda()
-model.eval()
+
 
 
 #Amend parameter list to select which type to be quantized (or carry out full quantization by changing bypass_selection)
 param_list = ['receptance.weight', 'key.weight', 'value.weight', 'ln1', 'ln2']
-bits = [4, 8, 14, 16, 32]
-bypass_selection = True
+bits = [4]
+bypass_selection = False
 
-print("Non-Quantized Perplexity, Quantized Perplexity, Deviation (%), More or Less Perplexity")
+#print("Non-Quantized Perplexity, Quantized Perplexity, Deviation (%), More or Less Perplexity")
 
 for b in bits:
+    print(f"Quantized {b}-bits NLG:")
     for item in float_dict:
         if any(x in item for x in param_list) or bypass_selection:
             #print(f"block.{i}")
@@ -204,32 +203,8 @@ for b in bits:
 
 
     torch.save(quant_model.state_dict(), "test.pth")
+    #os.system("python run_quant.py --MODEL_NAME='test_quant_sst'")
 
-    quant_model.cuda()
-
-
-    original_tens = []
-    quant_tens = []
-
-
-
-    for (x,y) in loader:
-        out = model(x, y)
-        out = torch.square(out)
-        functional.reset_net(model)
-        original_tens.append(out.item())
-        #print("original: ",out)
-        out = quant_model(x, y)
-        out = torch.square(out)
-        functional.reset_net(quant_model)
-        quant_tens.append(out.item())
-        orig_mean = statistics.mean(original_tens)
-        quant_mean = statistics.mean(quant_tens)
-        dev = (orig_mean - quant_mean) / orig_mean
-        status = "more" if dev < 0 else "less"
-        #print("quantized",out)
-        #exit()
-    print(f"{orig_mean}, {quant_mean}, {dev}, {status}")
     #print('Quantized perplexity: ', )
 
 

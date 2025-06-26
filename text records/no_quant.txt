@@ -1,0 +1,168 @@
+
+Using CUDA. Loading SpikeGPT-216M...
+
+RWKV_HEAD_QK_DIM 0 RWKV_JIT_ON 1
+
+emb.weight                               float32    cpu
+blocks.0.ln1.weight                      float32    cuda:0
+blocks.0.ln1.bias                        float32    cuda:0
+blocks.0.ln2.weight                      float32    cuda:0
+blocks.0.ln2.bias                        float32    cuda:0
+blocks.0.ln0.weight                      float32    cuda:0
+blocks.0.ln0.bias                        float32    cuda:0
+blocks.0.att.time_decay                  float32    cuda:0
+blocks.0.att.time_first                  float32    cuda:0
+blocks.0.att.time_mix_k                  float32    cuda:0
+blocks.0.att.time_mix_v                  float32    cuda:0
+blocks.0.att.time_mix_r                  float32    cuda:0
+blocks.0.att.key.weight                  float32    cuda:0
+blocks.0.att.value.weight                float32    cuda:0
+blocks.0.att.receptance.weight           float32    cuda:0
+blocks.0.att.output.weight               float32    cuda:0
+blocks.0.ffn.time_mix_k                  float32    cuda:0
+blocks.0.ffn.time_mix_r                  float32    cuda:0
+blocks.0.ffn.key.weight                  float32    cuda:0
+blocks.0.ffn.receptance.weight           float32    cuda:0
+blocks.0.ffn.value.weight                float32    cuda:0
+..................................................................................................................................................................................................................................................................................................................
+ln_out.weight                            float32    cuda:0
+ln_out.bias                              float32    cuda:0
+head.weight                              float32    cuda:0
+
+Optimizing speed...
+
+Loading tokenizer ['20B_tokenizer.json', '20B_tokenizer.json']...
+
+Your prompt has 171 tokens.
+Note: currently the first run takes a while if your prompt is long, as we are using RNN to preprocess the prompt. Use GPT to build the hidden state for better speed.
+
+--------------------------------------------------
+Prehistoric man sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave in modern day France 36,000 years ago. Now, with the help of cutting-edge technology, those works of art in the Chauvet-Pont-d’Arc Cave have been reproduced to create the biggest replica cave in the world. The manmade cavern named the Caverne du Pont-d’Arc has been built a few miles from the original site in Vallon-Pont-D’arc in Southern France and contains 1,000 painstakingly-reproduced drawings as well as around 450 bones and other features...
+ Cavemen and women sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave 36,000 years ago and now a replica has been created (pictured) of the Great Sea from the moon
+
+
+
+The rock rock cave in the cave was once found in the southern mountains of Chile in the mid20th century, about 200,000 years ago. The archaeologists believe it had some of the oldest fossils seen on Earth, which means archaeologists have discovered more than 500,000 years ago
+
+
+
+Although it is unknown if the pyramids have ever been found in the prehistoric continent, it appears they were discovered at least once by archaeologists who built the cave in about 30,000 years
+
+
+
+Scientists from the University of Bonne-de-Prince found a pyramid dating back to 150 BC that contains the earliest archaeologists ever found
+
+
+
+But there are other cave finds on the site which indicate that the ruins of the cave were buried in ancient caves, and may have been discovered in some other cave at the base
+
+
+
+But they may not have been close to the cave as they were not in the very middle of a cave that were near them
+
+
+
+Although it seems that they were a little smaller than they seem today, they appear to be less of a wall today
+
+
+
+Most recently, researchers discovered a crater called the Paleolithic Age on the north coast of Antarctica
+
+
+
+An article published in the journal Science by scientists at the University of Leeds in 2015 revealed that this cave had been uncovered in an area about 700 kilometres from northern Belgium
+
+
+
+In fact, the skull revealed a temple called the building where ancient remains had been found
+
+
+
+This cave appears to have been found on a remote mountain-covered island on the coast of Argentina, just south of Madrid
+
+
+
+There were still
+
+--- preprocess 1.33s, generation 2.84s --------------------------------------------------
+Prehistoric man sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave in modern day France 36,000 years ago. Now, with the help of cutting-edge technology, those works of art in the Chauvet-Pont-d’Arc Cave have been reproduced to create the biggest replica cave in the world. The manmade cavern named the Caverne du Pont-d’Arc has been built a few miles from the original site in Vallon-Pont-D’arc in Southern France and contains 1,000 painstakingly-reproduced drawings as well as around 450 bones and other features...
+ Cavemen and women sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave 36,000 years ago and now a replica has been created (pictured) of about 10,000 dinosaurs including giant snakes
+
+But, scientists are confident, according to one scientist at the site, that the monument was made from an earthquake and is believed to have caused the fault caused by a powerful earthquake.
+
+A top archaeologist at the University of Leipzig, Jean-Claude Poudreau, said: 'These things showed that a huge cave was in existence.
+
+'They have yet to be discovered but it's possible that these earthquakes had been caused by a shell caused by a quake that destroyed the buildings and destroyed hundreds of other buildings.
+
+'And we can tell from a wide range of photographs of these small structures which is clear that these high-speed earthquakes made it possible for such a crater to become such a unique location.'
+
+As well as a map showing the ruins of a magnitude 12.5 magnitude earthquake, researchers have also been able to find the high elevations and magnitude 8.5 quake near the volcano.
+
+In a statement, it added: 'This observation indicates that there is no reason why a complex explosion like this was possible so rapidly, but we are very grateful that the largest earthquake has occurred ever and has helped scientists understand the true nature of the earthquake.'
+
+The quake comes just days after a volcano struck about 300 kilometres northwest of Zurich in Italy.
+
+Scroll down for video
+
+The quake struck at around 10.36am PST (0400T0000T00T0000T00T00T0000T00T00T00T0000T00T00T00T0000
+
+--- preprocess 0.0s, generation 2.78s --------------------------------------------------
+Prehistoric man sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave in modern day France 36,000 years ago. Now, with the help of cutting-edge technology, those works of art in the Chauvet-Pont-d’Arc Cave have been reproduced to create the biggest replica cave in the world. The manmade cavern named the Caverne du Pont-d’Arc has been built a few miles from the original site in Vallon-Pont-D’arc in Southern France and contains 1,000 painstakingly-reproduced drawings as well as around 450 bones and other features...
+ Cavemen and women sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave 36,000 years ago and now a replica has been created (pictured) of a volcano in Antarctica
+
+It is believed that the stone had fallen from the top of a lake below the crater, but researchers say it is not a cave that appears to be in its 70s or 80s
+
+It is believed the mound was created at the age of 62 and had been a relatively tiny town since around the 1400s
+
+Researchers at the University of California at San Francisco are looking at the cave's texture, shape and appearance
+
+They believe that the remains are the same age as ancient Greek ancient treasures, but it seems like the cave was made from copper, aluminium, copper and bronze
+
+The cave was found about 150,000 years ago, with thousands of years of geologic data showing it had been discovered on Mars for thousands of million years
+
+Professor Pablo Hancock, from the University of Bristol, said: 'This cave, located on the eastern side of the planet, is the most recent geological geological archaeological to have uncovered the same cave.
+
+'It also shows that these sites have some very big deposits in them that make them even more spectacular.
+
+'They were discovered in a cave with their graves littered with rocks, along with thousands of other treasures and treasures, but this remains a very strange place to explore.
+
+'The archaeologists found an enormous rock in the cave near the top of the volcano that is now about 5,000 meters long and is close to the site of the site
+
+'These sites have been shown to have been discovered from the stone surface and appear to have been buried near the lake
+
+'It is believed that ancient
+
+--- preprocess 0.0s, generation 2.78s --------------------------------------------------
+Prehistoric man sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave in modern day France 36,000 years ago. Now, with the help of cutting-edge technology, those works of art in the Chauvet-Pont-d’Arc Cave have been reproduced to create the biggest replica cave in the world. The manmade cavern named the Caverne du Pont-d’Arc has been built a few miles from the original site in Vallon-Pont-D’arc in Southern France and contains 1,000 painstakingly-reproduced drawings as well as around 450 bones and other features...
+ Cavemen and women sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave 36,000 years ago and now a replica has been created (pictured) of the ancient stone cave
+
+While the giant rock pit is still known as the rock pyramid, it is about 3,400 kilometres long, about 20 kilometers long and around 200 meters long
+
+After a long journey to the rock pyramid, researchers discovered the remains of hundreds of caves in France
+
+It took more than two thousand years to complete the pyramid
+
+The archaeologists are looking at how large the cave is and how far it goes to find the new cave
+
+The cave is only 3,400 metres long and has more than 400 objects that are taller than the tower
+
+They hope to help scientists understand how the stone structures collapsed, how they evolved and how the rock melted
+
+The cave remains open to the public
+
+If you want to know more about the temple then check out our interactive Guide to the Glass wall below
+
+It was discovered by archaeologist Henry Murray, a mathematician at Cornell University, who first found the limestone hole in the hole.
+
+A team of researchers from the University of Wisconsin-Madison in Spain, France and Switzerland have found the structure, a large stone structure that is covered in iron rock that is thought to have existed on the surface of Mars for more than 1,000,000 years.
+
+However, the archaeologists have now discovered an empty cave on the summit of Mount Everest
+
+The cave had been dug at a time when sea level rise rose over the past 200,000 years to 10,000 BC
+
+The stone remains are still unknown but may have formed in the city of Gautam-Saudi on 28 March 2084.
+
+The
+
+--- preprocess 0.0s, generation 2.78s --------------------------------------------------
+

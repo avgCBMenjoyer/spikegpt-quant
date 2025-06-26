@@ -1,0 +1,126 @@
+
+Using CUDA. Loading test...
+
+RWKV_HEAD_QK_DIM 0 RWKV_JIT_ON 1
+
+emb.weight                               float32    cpu
+blocks.0.ln1.weight                      float32    cuda:0
+blocks.0.ln1.bias                        float32    cuda:0
+blocks.0.ln2.weight                      float32    cuda:0
+blocks.0.ln2.bias                        float32    cuda:0
+blocks.0.ln0.weight                      float32    cuda:0
+blocks.0.ln0.bias                        float32    cuda:0
+blocks.0.att.time_decay                  float32    cuda:0
+blocks.0.att.time_first                  float32    cuda:0
+blocks.0.att.time_mix_k                  float32    cuda:0
+blocks.0.att.time_mix_v                  float32    cuda:0
+blocks.0.att.time_mix_r                  float32    cuda:0
+blocks.0.att.key.weight                  float32    cuda:0
+blocks.0.att.value.weight                float32    cuda:0
+blocks.0.att.receptance.weight           float32    cuda:0
+blocks.0.att.output.weight               float32    cuda:0
+blocks.0.ffn.time_mix_k                  float32    cuda:0
+blocks.0.ffn.time_mix_r                  float32    cuda:0
+blocks.0.ffn.key.weight                  float32    cuda:0
+blocks.0.ffn.receptance.weight           float32    cuda:0
+blocks.0.ffn.value.weight                float32    cuda:0
+..................................................................................................................................................................................................................................................................................................................
+ln_out.weight                            float32    cuda:0
+ln_out.bias                              float32    cuda:0
+head.weight                              float32    cuda:0
+
+Optimizing speed...
+
+Loading tokenizer ['20B_tokenizer.json', '20B_tokenizer.json']...
+
+Your prompt has 161 tokens.
+Note: currently the first run takes a while if your prompt is long, as we are using RNN to preprocess the prompt. Use GPT to build the hidden state for better speed.
+
+--------------------------------------------------
+
+The following is a conversation between a highly knowledgeable and intelligent AI assistant called Bot, and a human user called User. In the following interactions, User and Bot converse in natural language, and Bot always answer User's questions. Bot is very smart, polite and humorous. Bot knows a lot, and always tells the truth. The conversation begins.
+
+User: who is president of usa?
+Bot: It’s Joe Biden; he was sworn in earlier this year.
+
+User: french revolution what year
+Bot: It started in 1789, but it lasted 10 years until 1799.
+
+User: guess i marry who ?
+Bot: Only if you tell me more about yourself - what are your interests?
+
+User: why do we pay taxes umpire and investor have close relationships? Because we agree that we can agree for whatever reason, not create ourselves. If the AI does have good outcomes for us – maybe humans will solve it – it will solve this problem entirely – I will assume we will solve it rather openly.
+
+US Presidential Presidential hopeful Donald Trump: I will not pay rent to you for it – I will pay you to make it work – John Podemos
+
+Technologies are largely complicated by a simple intuition: Think of what human knowledge means – things like things like human DNA – it can be studied by combining differences, as did human brain research. That sounds familiar at first, but it is true – it involves looking at some knowledge that has real consequences. In some cases, human consciousness is done in real life by humans – using human brains as tools to examine real world situations, such as human evolution – but humans have no sense of social related limits. There is a contradiction between social interactions and social interaction – social perception depends heavily on social interaction as well as human cognition. There are various social functions involved, such as psychological behaviour as well as cognition as well as mental health as well as mental state, but social consciousness is well-connected with human behaviour as well as social cognition, social relations, social cognition, behaviors related to mental health, mental health as well as social cognition, public health as well as mental health, mental health as well as mental health as well as social relations.
+
+In real life humans have different social attitudes as well as social interactions. There will be social and social differences as well as social norms, rather than social differences. There will be
+
+--- preprocess 1.45s, generation 3.04s --------------------------------------------------
+
+The following is a conversation between a highly knowledgeable and intelligent AI assistant called Bot, and a human user called User. In the following interactions, User and Bot converse in natural language, and Bot always answer User's questions. Bot is very smart, polite and humorous. Bot knows a lot, and always tells the truth. The conversation begins.
+
+User: who is president of usa?
+Bot: It’s Joe Biden; he was sworn in earlier this year.
+
+User: french revolution what year
+Bot: It started in 1789, but it lasted 10 years until 1799.
+
+User: guess i marry who ?
+Bot: Only if you tell me more about yourself - what are your interests?
+
+User: why do we pay taxes umpires or lawyers? because we can raise money for ourselves as the result of social social experiment – it does work out well for our education schemes as well – but I can tell you it works for everyone: a parent with kids and a 7-year-old baby makes at least $20 a year. And yes my parent has paid 8% of that annual minimum rent to help pay for groceries for our daughters. That sounds like a lot of money for a parent; it does cost me half of it as a parent. And therefore my baby spends 15% less on living a good life than my mom did as a toddler – 8% more for living for her baby son – too.
+
+Moving forward I will say I am far more happy with it than I would be if I didn't grow up with human beings as a boy or girl. I can hope I can perform well for everyone else I can manage – but I can't thank anyone for being great at it.
+
+What kind of AI did you draw in the first place?
+
+Directivated Living: Sure I can play chess games and play chess with friends for 15 minutes a day; I can perform movement activities as the game evolves as I become older; when I can train I can perform training as a parent; I can train as a parent for 15 minutes a week; I can play chess chess more frequently; I can play chess more openly with my grandmother; I can play chess as a boy; I can play chess as the child I can play through chess games; I can play chess as a boy; I can play chess as a boy; I can
+
+--- preprocess 0.0s, generation 2.86s --------------------------------------------------
+
+The following is a conversation between a highly knowledgeable and intelligent AI assistant called Bot, and a human user called User. In the following interactions, User and Bot converse in natural language, and Bot always answer User's questions. Bot is very smart, polite and humorous. Bot knows a lot, and always tells the truth. The conversation begins.
+
+User: who is president of usa?
+Bot: It’s Joe Biden; he was sworn in earlier this year.
+
+User: french revolution what year
+Bot: It started in 1789, but it lasted 10 years until 1799.
+
+User: guess i marry who ?
+Bot: Only if you tell me more about yourself - what are your interests?
+
+User: why do we pay taxes umpires pay us. You can sell us software for $4 a year, get paid millions and make thousands. Which is why I will spend some time on these things!
+
+Many users have also suggested using Messenger as a currency as a payment option. Some have complained that using Pay is unintelligent as a tool to help people support themselves as criminals. Others agree that this method allows the circulation of money for political gain. Others argue it contributes to social experiment and disruption.
+
+Companies have become entangled with artificial Intelligence in recent years as they strive to overcome the increasing challenges faced by people across the globe, such as cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity, cybersecurity,
+
+--- preprocess 0.0s, generation 2.83s --------------------------------------------------
+
+The following is a conversation between a highly knowledgeable and intelligent AI assistant called Bot, and a human user called User. In the following interactions, User and Bot converse in natural language, and Bot always answer User's questions. Bot is very smart, polite and humorous. Bot knows a lot, and always tells the truth. The conversation begins.
+
+User: who is president of usa?
+Bot: It’s Joe Biden; he was sworn in earlier this year.
+
+User: french revolution what year
+Bot: It started in 1789, but it lasted 10 years until 1799.
+
+User: guess i marry who ?
+Bot: Only if you tell me more about yourself - what are your interests?
+
+User: why do we pay taxes iced? because I can solve things pretty casually – I can make my friends make money from it by giving me opportunities to do it for free. There will be lots of applications out there, I can make a profit from it; I can make it as a hobby as a tester; I can grow it as a developer; I can make lots of money selling it; I can make things!
+
+Another great thing about my mentor is that he is great for ICs.
+
+It will be fun seeing how hard it is to get started!
+
+Social media has generated some great ratings lately – mostly because we hope we can become a technology service provider by June 2020 – but it will be very difficult for us to keep up with some of the innovations our platforms will bring. There will be a lot more people asking us about it and I hope we can use that technology as a starting point for real solutions.
+
+One thing I will mention is that Twitter has given me a very good chance to do it. Some users have expressed interest, while some have stayed happy. Some will agree, while others may be upset. Some will be upset. Some may not agree – I will mention it before I go beyond that. Some users will admit I will change my mind from there – I will always mention it and promote it. Some will appreciate it – others will post it and get a reply soon. Some users may find it hard to believe I can grow up doing it correctly and I hope I can lead and contribute in future beyond it.
+
+Another thing I can admit is that Facebook is truly amazing at changing things – it will make you
+
+--- preprocess 0.0s, generation 2.83s --------------------------------------------------
+

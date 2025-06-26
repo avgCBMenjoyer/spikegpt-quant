@@ -1,0 +1,156 @@
+
+Using CUDA. Loading test...
+
+RWKV_HEAD_QK_DIM 0 RWKV_JIT_ON 1
+
+emb.weight                               float32    cpu
+blocks.0.ln1.weight                      float32    cuda:0
+blocks.0.ln1.bias                        float32    cuda:0
+blocks.0.ln2.weight                      float32    cuda:0
+blocks.0.ln2.bias                        float32    cuda:0
+blocks.0.ln0.weight                      float32    cuda:0
+blocks.0.ln0.bias                        float32    cuda:0
+blocks.0.att.time_decay                  float32    cuda:0
+blocks.0.att.time_first                  float32    cuda:0
+blocks.0.att.time_mix_k                  float32    cuda:0
+blocks.0.att.time_mix_v                  float32    cuda:0
+blocks.0.att.time_mix_r                  float32    cuda:0
+blocks.0.att.key.weight                  float32    cuda:0
+blocks.0.att.value.weight                float32    cuda:0
+blocks.0.att.receptance.weight           float32    cuda:0
+blocks.0.att.output.weight               float32    cuda:0
+blocks.0.ffn.time_mix_k                  float32    cuda:0
+blocks.0.ffn.time_mix_r                  float32    cuda:0
+blocks.0.ffn.key.weight                  float32    cuda:0
+blocks.0.ffn.receptance.weight           float32    cuda:0
+blocks.0.ffn.value.weight                float32    cuda:0
+..................................................................................................................................................................................................................................................................................................................
+ln_out.weight                            float32    cuda:0
+ln_out.bias                              float32    cuda:0
+head.weight                              float32    cuda:0
+
+Optimizing speed...
+
+Loading tokenizer ['20B_tokenizer.json', '20B_tokenizer.json']...
+
+Your prompt has 171 tokens.
+Note: currently the first run takes a while if your prompt is long, as we are using RNN to preprocess the prompt. Use GPT to build the hidden state for better speed.
+
+--------------------------------------------------
+Prehistoric man sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave in modern day France 36,000 years ago. Now, with the help of cutting-edge technology, those works of art in the Chauvet-Pont-d’Arc Cave have been reproduced to create the biggest replica cave in the world. The manmade cavern named the Caverne du Pont-d’Arc has been built a few miles from the original site in Vallon-Pont-D’arc in Southern France and contains 1,000 painstakingly-reproduced drawings as well as around 450 bones and other features...
+ Cavemen and women sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave 36,000 years ago and now a replica has been created (pictured)
+
+Scroll down for video
+
+Architect Emmanuel Pardons had been excavating a dam on a field near a cave in northern France and studying how it looked to be so beautiful
+
+Some 700 years ago the caves were preserved with the help of a team of researchers from the University of South Carolina
+
+The dig discovered a mountain near the lake's edge, at the centre of the 'known world of limestone deposits', which lies within the pyramid of the caves
+
+Scroll down for video
+
+The cave has now been discovered on a crumbling mountain floor that is known to have been abandoned on Mars and deposited on the slopes of the Great Lake
+
+However, scientists are now considering searching out ways to construct the volcano but are still unable to find a way to detect the discovery
+
+If you want to search for the caves in northern France, try looking at the team at Georgetown University
+
+The team have uncovered a cave about 100km north of Paris that allows scientists to see how much rocks are beneath the cave
+
+As a result of its work, they have discovered the remains of more than 300 cave skulls found in Europe
+
+They discovered more than 100 ruins in Egypt, Egypt and Egypt and found more than 600 cave deposits around the world
+
+They discovered over 30 sites in over 30 countries including Spain, the Netherlands, France, France, Spain, Denmark, Sweden, Norway, Switzerland
+
+There have been more than 3,000 treasures found across Europe worldwide this year
+
+However, researchers have not found any other evidence for how ancient stones were discovered on the hill
+
+They believe that the tomb was dug
+
+--- preprocess 1.33s, generation 2.88s --------------------------------------------------
+Prehistoric man sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave in modern day France 36,000 years ago. Now, with the help of cutting-edge technology, those works of art in the Chauvet-Pont-d’Arc Cave have been reproduced to create the biggest replica cave in the world. The manmade cavern named the Caverne du Pont-d’Arc has been built a few miles from the original site in Vallon-Pont-D’arc in Southern France and contains 1,000 painstakingly-reproduced drawings as well as around 450 bones and other features...
+ Cavemen and women sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave 36,000 years ago and now a replica has been created (pictured)
+
+There are about 300 ruins for those looking for a full explanation of what it is like to see something remarkable like this before it started
+
+It's thought that some 400,000 years ago, ancient Greece was part of the Egyptian pyramid which we've always believed was once the greatest burial site in the world
+
+The museum is located at a distance of more than 200km (8,900ft) which is located just over a mile (500m) wide
+
+The base is the site of a pyramids in which the pyramids and ancient temples have been buried
+
+This stone castle, in northern Egypt, has also been preserved since 666 AD A stunning stone sculpture has been found near the base
+
+A detailed look at ancient relics from the Roman Empire reveals that there was a huge tomb around 6,400 years ago in Cairo
+
+The archaeologist Sarah McDavid said: 'These treasures are perhaps the most beautiful in archaeology in history and they represent the first time we have found such a beautiful potion of this kind.'
+
+The bones include discoveries by archaeologists from the Roman Museum of Archaeology, the ancient tomb at the site of the Greek period and a number more than 2,500 years ago
+
+A skeleton from Egypt was discovered in Mesopotamia, about 20,000 years ago A dinosaur from Egypt has been found at the site at the site of a archaeological site at the site
+
+This monument of archaeologists will be led by archaeologist Professor Laurent Bouteflika at the Museum of Archaeology in Barcelona
+
+The mound of gold will be excavated by archae
+
+--- preprocess 0.0s, generation 2.82s --------------------------------------------------
+Prehistoric man sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave in modern day France 36,000 years ago. Now, with the help of cutting-edge technology, those works of art in the Chauvet-Pont-d’Arc Cave have been reproduced to create the biggest replica cave in the world. The manmade cavern named the Caverne du Pont-d’Arc has been built a few miles from the original site in Vallon-Pont-D’arc in Southern France and contains 1,000 painstakingly-reproduced drawings as well as around 450 bones and other features...
+ Cavemen and women sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave 36,000 years ago and now a replica has been created (pictured)
+
+For now, visitors can see just how much art is left behind on the site
+
+Ponton’s largest collection is called the Turbo Kingdom, located about 30,000 years ago
+
+The cave is built around a base known as the Closeron Palace that will be present for some time
+
+Despite the vast amounts of caves left in the cave, archaeologists have been notoriously impressed by the incredible beauty and complexity
+
+These excavations suggest that these sites have not only been a treasure but are also perhaps one of the most iconic of all time
+
+'It’s a beautiful monument that we have come across in hundreds of years and it will be incredible to see it moving forward, for centuries to come,' said Chris Robertson, a professor of archaeology at University of Michigan at Davis, California.
+
+‘This site is just one of the most exciting pieces of ancient artifacts ever discovered.’
+
+At least five ancient statues are expected to be found this spring in France
+
+But scientists say that they have little idea how they will get done if they see a long way ahead.
+
+Researchers hope to develop a piece of clay discovered in the rocks of the site in early 2018 that would show how ancient cities had managed to destroy it in the past
+
+‘The discovery will allow us to know how important the ancient site was for the empire to make about its origin, the structure and its cultural significance,’ added Professor Patrick Mullan, the chief archaeologist at the University of London
+
+‘Our work suggests that it may have been buried in the mound in a geological region that had been quite
+
+--- preprocess 0.0s, generation 2.82s --------------------------------------------------
+Prehistoric man sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave in modern day France 36,000 years ago. Now, with the help of cutting-edge technology, those works of art in the Chauvet-Pont-d’Arc Cave have been reproduced to create the biggest replica cave in the world. The manmade cavern named the Caverne du Pont-d’Arc has been built a few miles from the original site in Vallon-Pont-D’arc in Southern France and contains 1,000 painstakingly-reproduced drawings as well as around 450 bones and other features...
+ Cavemen and women sketched an incredible array of prehistoric beasts on the rough limestone walls of a cave 36,000 years ago and now a replica has been created (pictured) of two giant mammoths
+
+A new paper has been published by the Swiss Archaeological Museum (pictured)
+
+Researchers at the Université d’Anzeige, Germany’s first academic institute to develop complex sculptures
+
+A team of archaeologists from the University of Seine-Quentin, Switzerland, have developed a massive telescope to recreate an enormous mosaic of ice sheets and sediment formations
+
+One of the researchers, Joanna Schubert of the University of Dortmund in Switzerland, led the study with team member Jean-Claude Juncker, of the National Museum of Science and Technology (Nato), and a team of researchers from Germany and the Netherlands
+
+A team led by colleagues from the Université d’Université d’Allemand and the university’s Department of Archaeological Sciences have found a rock that is estimated to be between 10,000 and 16,000 years old
+
+Some 1.6 million years ago, there were many real creatures and objects found in these lakes
+
+While a large number of dinosaurs lived there, this new species suggests they are probably different than humans
+
+One of the most amazing discoveries is the discovery of a rocky earth around the planet in the modern age
+
+The most impressive of these large things has been found in ancient Greece.
+
+A number of large pyramids and a remarkable number of ancient bones, discovered in the years before it was discovered, are found around Greece
+
+Some 600,000 years ago, these formations are known as a giant crater called a crater
+
+The skeletons show the structures of a giant, huge rocky cave
+
+--- preprocess 0.0s, generation 2.82s --------------------------------------------------
+
