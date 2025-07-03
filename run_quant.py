@@ -44,7 +44,7 @@ WORD_NAME = [
 UNKNOWN_CHAR = None
 vocab_size = 50277
 
-MODEL_NAME = 'test'
+MODEL_NAME = 'test_ext'
 n_layer = 18
 n_embd = 768
 ctx_len = 1024
@@ -111,19 +111,19 @@ context = 'Prehistoric man sketched an incredible array of prehistoric beasts on
 #Bot: '''
 # type your question here
 
-context = '''
-The following is a conversation between a highly knowledgeable and intelligent AI assistant called Bot, and a human user called User. In the following interactions, User and Bot converse in natural language, and Bot always answer User's questions. Bot is very smart, polite and humorous. Bot knows a lot, and always tells the truth. The conversation begins.
+#context = '''
+#The following is a conversation between a highly knowledgeable and intelligent AI assistant called Bot, and a human user called User. In the following interactions, User and Bot converse in natural #language, and Bot always answer User's questions. Bot is very smart, polite and humorous. Bot knows a lot, and always tells the truth. The conversation begins.
 
-User: who is president of usa?
-Bot: It’s Joe Biden; he was sworn in earlier this year.
+#User: who is president of usa?
+#Bot: It’s Joe Biden; he was sworn in earlier this year.
 
-User: french revolution what year
-Bot: It started in 1789, but it lasted 10 years until 1799.
+#User: french revolution what year
+#Bot: It started in 1789, but it lasted 10 years until 1799.
 
-User: guess i marry who ?
-Bot: Only if you tell me more about yourself - what are your interests?
+#User: guess i marry who ?
+#Bot: Only if you tell me more about yourself - what are your interests?
 
-User: why do we pay taxes ''' # type your question here
+#User: why do we pay taxes ''' # type your question here
 
 
 

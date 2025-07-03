@@ -194,14 +194,15 @@ model.eval()
 
 #Amend parameter list to select which type to be quantized (or carry out full quantization by changing bypass_selection)
 param_list = ['receptance.weight', 'key.weight', 'value.weight', 'ln1', 'ln2']
-bits = [4, 8, 12, 16, 32]
+bits = [4, 8, 12, 16]
 bypass_selection = True
 
 #print("Non-Quantized Perplexity, Quantized Perplexity, Deviation (%), More or Less Perplexity")
 #Open file for recording
-rec_file = open("quanti_sst2_all.txt", 'a')
-loss_file = open("orig_sst2_all.txt", 'a')
-rec_file.write("Epoch, 4-bit, 8-bit, 12-bit, 16-bit, 32-bit\n")
+rec_file = open("quanti_sst2_all_b.txt", 'a')
+loss_file = open("orig_sst2_all_b.txt", 'a')
+rec_file.write("Iteration, 4-bit, 8-bit, 12-bit, 16-bit\n")
+loss_file.write("Iteration, 4-bit, 8-bit, 12-bit, 16-bit\n")
 for i in range(25):
     rec_file.write(f"{i},")
     loss_file.write(f"{i},")
@@ -248,7 +249,7 @@ for i in range(25):
         #torch.save(quant_model.state_dict(), "test.pth")
 
         quant_model.cuda()
-
+        quant_model.eval()
 
         original_tens = []
         quant_tens = []
@@ -264,6 +265,7 @@ for i in range(25):
             # Get the inputs and labels
             inputs = batch[0].to(device)
             labels = batch[1].to(device)
+            labels_quant = labels.clone()
 
             # Forward pass
             with torch.no_grad():
@@ -273,7 +275,8 @@ for i in range(25):
                 loss = loss_fn(outputs, labels)
                 q_out, q_loss = quant_model(inputs)
                 q_pred = q_out.argmax(dim=1)
-                q_loss = loss_fn(q_out, labels)
+                q_loss = loss_fn(q_out, labels_quant)
+
 
 
             # Update the metrics
@@ -281,7 +284,7 @@ for i in range(25):
             total_correct += (pred == labels).sum().item()
             total_samples += inputs.size(0)
             q_total_loss += q_loss.item() * inputs.size(0)
-            q_total_correct += (q_pred == labels).sum().item()
+            q_total_correct += (q_pred == labels_quant).sum().item()
             q_total_samples += inputs.size(0)
             functional.reset_net(model)
             functional.reset_net(quant_model)
@@ -295,13 +298,13 @@ for i in range(25):
 
 
         # Print the metrics
-        print(f"Original: Loss = {avg_loss:.4f}, Accuracy = {avg_acc:.4f}")
+        print(f"Original: Loss = {avg_loss:.4f}, Accuracy = {avg_acc:.4f}\n")
         print(f"Quantized {b}-bits: Loss = {q_avg_loss:.4f}, Accuracy = {q_avg_acc:.4f}\n")
         rec_file.write(f"{q_avg_acc:.4f},")
         loss_file.write(f"{avg_acc:.4f},")
     rec_file.write("\n")
     loss_file.write("\n")
-    torch.save(model.state_dict(), "sst2_model_ten.pth")
+    torch.save(model.state_dict(), "sst2_model_ten_uwu.pth")
 rec_file.close()
 loss_file.close()
 

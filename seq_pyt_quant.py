@@ -158,7 +158,7 @@ model.eval()
 
 #Amend parameter list to select which type to be quantized (or carry out full quantization by changing bypass_selection)
 param_list = ['receptance.weight', 'key.weight', 'value.weight', 'ln1', 'ln2']
-bits = [4, 8, 14, 16, 32]
+bits = [4, 8, 12, 16]
 bypass_selection = True
 
 print("Non-Quantized Perplexity, Quantized Perplexity, Deviation (%), More or Less Perplexity")
