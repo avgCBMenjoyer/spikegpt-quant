@@ -16,14 +16,14 @@ from torch.nn import functional as F
 tokenizer = PreTrainedTokenizerFast(tokenizer_file='20B_tokenizer.json')
 
 tokenizer.pad_token = "<|padding|>"
-model = GPT(GPTConfig(vocab_size=50277, ctx_len=1024, model_type='RWKV', n_layer=18, n_embd=768))
+model = GPT(GPTConfig(vocab_size=50277, ctx_len=1024, num_classes=5, model_type='RWKV', n_layer=18, n_embd=768))
 #m2 = torch.load('/share/code/SpikeGPT_addition/trained-30L-768E-936.pth',map_location=torch.device('cpu'))
 #model.load_state_dict(m2, strict=False)
 m2 = torch.load('SpikeGPT-216M.pth', map_location=torch.device('cpu'))
 model.load_state_dict(m2, strict=False)
 model = model.cuda()
 def tokenize(batch):
-    return tokenizer(batch["sentence"])
+    return tokenizer(batch["text"])
 data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
 dataset = load_dataset("SetFit/sst5", keep_in_memory=True, cache_dir="/share/datasets")
 #dataset = datasets.load_from_disk('sst-2')
@@ -56,7 +56,7 @@ optimizer = AdamW(model.parameters(), lr=3e-6)
 loss_fn = nn.CrossEntropyLoss()
 
 # Define the number of training epochs
-num_epochs = 10
+num_epochs = 30
 device = 'cuda:0'
 
 #Open file for recording
@@ -128,6 +128,6 @@ for epoch in range(num_epochs):
     # Print the metrics
     print(f"Epoch {epoch + 1}: Loss = {avg_loss:.4f}, Accuracy = {avg_acc:.4f}")
     rec_file.write(f"Epoch {epoch + 1}: Loss = {avg_loss:.4f}, Accuracy = {avg_acc:.4f}\n")
-    torch.save(model.state_dict(), "sst2_model_ten.pth")
+    torch.save(model.state_dict(), "sst5_model_ten.pth")
 rec_file.close()
 

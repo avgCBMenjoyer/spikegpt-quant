@@ -30,7 +30,7 @@ args = types.SimpleNamespace()
 ######################################################
 
 epoch_length_fixed = 100
-datafile_test = 'wikitext-103.test_text_document'
+datafile_test = 'wikitext-2.test_text_document'
 
 test_dataset = Dataset(MMapIndexedDataset(datafile_test), 100, epoch_length_fixed)
 print(test_dataset)
@@ -73,7 +73,7 @@ WORD_NAME = [
 UNKNOWN_CHAR = None
 vocab_size = 50277
 
-MODEL_NAME = 'SpikeGPT-216M'
+MODEL_NAME = 'wikitwo-1000ep'
 n_layer = 18
 n_embd = 768
 ctx_len = 1024
@@ -177,7 +177,7 @@ for b in bits:
 
 
 
-    torch.save(float_dict, "test_quant.pth")
+    torch.save(float_dict, "test_wiki2_quant.pth")
 
     #quant_dict = torch.load("test_quant.pth")
     quant_dict = float_dict
@@ -203,7 +203,7 @@ for b in bits:
     #    break
 
 
-    torch.save(quant_model.state_dict(), "test.pth")
+    torch.save(quant_model.state_dict(), "test_wiki2.pth")
 
     quant_model.cuda()
 
@@ -215,12 +215,12 @@ for b in bits:
 
     for (x,y) in loader:
         out = model(x, y)
-        out = torch.square(out)
+        out = torch.exp(out)
         functional.reset_net(model)
         original_tens.append(out.item())
         #print("original: ",out)
         out = quant_model(x, y)
-        out = torch.square(out)
+        out = torch.exp(out)
         functional.reset_net(quant_model)
         quant_tens.append(out.item())
         orig_mean = statistics.mean(original_tens)

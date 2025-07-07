@@ -298,9 +298,10 @@ class RWKV_ChannelMix(torch.jit.ScriptModule):
 
 
 class GPTConfig:
-    def __init__(self, vocab_size, ctx_len, **kwargs):
+    def __init__(self, vocab_size, ctx_len, num_classes, **kwargs):
         self.vocab_size = vocab_size
         self.ctx_len = ctx_len
+        self.num_classes = num_classes
         for k, v in kwargs.items():
             setattr(self, k, v)
 
@@ -357,7 +358,7 @@ class GPT(nn.Module):
         self.atan = atan()
         self.ln_out = nn.LayerNorm(config.n_embd)
         self.head = nn.Linear(config.n_embd, config.vocab_size, bias=False)
-        self.classifier = nn.Linear(config.n_embd, 2, bias=False)
+        self.classifier = nn.Linear(config.n_embd, config.num_classes, bias=False)
 
         if RWKV_HEAD_QK_DIM > 0:
             self.head_q = nn.Linear(config.n_embd, RWKV_HEAD_QK_DIM, bias=False)

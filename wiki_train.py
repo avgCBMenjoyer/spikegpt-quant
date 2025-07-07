@@ -40,16 +40,16 @@ model_type = 'RWKV'
 # ===> batch_size must be divisible by B_GROUP_FORWARD and B_GROUP_BACKWARD in model.py
 # For example, if your batch_size = 20, you can set B_GROUP_FORWARD = 4, B_GROUP_BACKWARD = 2
 # If you see "CUDA out of memory", reduce it. Use GPU-Z to find the highest value for your VRAM.
-batch_size = 4
+batch_size = 8
 
 ### Step 4: set learning rate, training mini-epochs #######################################################
 
 lr_init = 3e-6
 lr_final = 5e-5
 # the mini-epoch is very short and of fixed length (ctx_len * epoch_length_fixed tokens)
-n_epoch = 100
+n_epoch = 1000
 # 0 = never, 1 = every mini-epoch, 2 = every two mini-epochs, etc.
-epoch_save_frequency = 10
+epoch_save_frequency = 50
 epoch_save_path = 'your_path'
 
 epoch_length_fixed = 100

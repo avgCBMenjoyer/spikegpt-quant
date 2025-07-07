@@ -69,7 +69,7 @@ def collate_fn(examples):
     label = torch.stack(new_batch_label, dim=0)
     return data, label
 train_loader = DataLoader(train_dataset, batch_size=12, shuffle=True, collate_fn=collate_fn)
-test_loader = DataLoader(test_dataset, batch_size=12, shuffle=False, collate_fn=collate_fn)
+test_loader = DataLoader(test_dataset, batch_size=12, shuffle=True, collate_fn=collate_fn)
 eval_loader = DataLoader(eval_dataset, batch_size=12, shuffle=False, collate_fn=collate_fn)
 
 
@@ -108,7 +108,7 @@ WORD_NAME = [
 UNKNOWN_CHAR = None
 vocab_size = 50277
 
-MODEL_NAME = 'sst2_model_ten'
+MODEL_NAME = 'sst2_model_thi'
 n_layer = 18
 n_embd = 768
 ctx_len = 1024
@@ -147,6 +147,7 @@ from src.class_model import GPT, GPTConfig
 
 model = GPT(GPTConfig(vocab_size=50277, ctx_len=1024, num_classes=2, model_type='RWKV', n_layer=18, n_embd=768))
 quant_model = GPT(GPTConfig(vocab_size=50277, ctx_len=1024, num_classes=2, model_type='RWKV', n_layer=18, n_embd=768))
+test_model = GPT(GPTConfig(vocab_size=50277, ctx_len=1024, num_classes=2, model_type='RWKV', n_layer=18, n_embd=768))
 m2 = torch.load(MODEL_NAME + '.pth', map_location=torch.device('cpu'))
 
 
@@ -193,34 +194,44 @@ model.eval()
 
 
 #Amend parameter list to select which type to be quantized (or carry out full quantization by changing bypass_selection)
-param_list = ['receptance.weight', 'key.weight', 'value.weight', 'ln1', 'ln2']
+
+
+# Import CSV index from Excel Sheet
+df = pd.read_csv('param_idx.csv')
+block_ids = df['sub block'].unique().tolist()
+
+
+
+
 bits = [4, 8, 12, 16]
 bypass_selection = True
 
 #print("Non-Quantized Perplexity, Quantized Perplexity, Deviation (%), More or Less Perplexity")
 #Open file for recording
-rec_file = open("quanti_sst2_all_b.txt", 'a')
-loss_file = open("orig_sst2_all_b.txt", 'a')
-rec_file.write("Iteration, 4-bit, 8-bit, 12-bit, 16-bit\n")
-loss_file.write("Iteration, 4-bit, 8-bit, 12-bit, 16-bit\n")
-for i in range(25):
-    rec_file.write(f"{i},")
-    loss_file.write(f"{i},")
+rec_file = open("subblock_sst2_quant.txt", 'a')
+loss_file = open("subblock_sst2_float.txt", 'a')
+log_file = open("log_subblock_q.txt", 'a')
+rec_file.write("Targeted Sub Block, 4-bit, 8-bit, 12-bit, 16-bit\n")
+loss_file.write("Targeted Sub Block, 4-bit, 8-bit, 12-bit, 16-bit\n")
+for bid in block_ids:
+    rec_file.write(f"{bid},")
+    loss_file.write(f"{bid},")
     for b in bits:
-        for item in float_dict:
-            if any(x in item for x in param_list) or bypass_selection:
-                #print(f"block.{i}")
-                with torch.no_grad():
-                    #print(item)
-                    weights = float_dict[item]
-                    q_weights = quantize_weights(weights, bits=b)
-                    float_dict[item] = q_weights  # Now contains quantization metadata
-                    #print(float_dict[item].dtype)
-                    #print(float_dict[item])
+        blk_params = df.loc[df['sub block'] == bid, 'param name'].tolist()
+        for item in blk_params:
+            #print(f"block.{i}")
+            with torch.no_grad():
+                #print(item)
+                weights = float_dict[item]
+                q_weights = quantize_weights(weights, bits=b)
+                float_dict[item] = q_weights  # Now contains quantization metadata
+                #print(float_dict[item].dtype)
+                log_file.write(f"{item}, {float_dict[item].dtype}\n")
+                #print(float_dict[item])
 
 
 
-        torch.save(float_dict, "test_quant_sst.pth")
+        torch.save(float_dict, "subblock_quant_sst.pth")
 
         #quant_dict = torch.load("test_quant.pth")
         quant_dict = float_dict
@@ -304,7 +315,7 @@ for i in range(25):
         loss_file.write(f"{avg_acc:.4f},")
     rec_file.write("\n")
     loss_file.write("\n")
-    torch.save(model.state_dict(), "sst2_model_ten_uwu.pth")
+    torch.save(model.state_dict(), "sst2_model_thi_subblock.pth")
 rec_file.close()
 loss_file.close()
 

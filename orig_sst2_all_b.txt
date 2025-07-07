@@ -1,0 +1,2 @@
+Iteration, 4-bit, 8-bit, 12-bit, 16-bit
+0,0.8532,
